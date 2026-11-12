@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the FilmTrail landing page and privacy policy, in English (root) and Vietnamese (vi/).
+"""Build the FilmTrail landing page and privacy policy, in seven languages (English at the root).
 
 Run from the repository root:  python3 _build/filmtrail/build.py   (or python3 _build/build_all.py)
 Text: _build/filmtrail/i18n/<code>.json and i18n/privacy/<code>.json. Layout: landing.html, privacy.html.
@@ -14,10 +14,15 @@ SITE = json.loads((REPO / "_build" / "site.json").read_text(encoding="utf-8"))
 BASE = SITE["base"] + "filmtrail/"
 EMAIL = SITE["email"]
 SCRIPT = (BUILD / "script.html").read_text(encoding="utf-8")
-# Same languages as the app: English and Vietnamese.
+# Same seven languages as FilmDesk (the app itself is in English and Vietnamese).
 LANGS = [
     # code, folder, html lang / hreflang, short label, native name
     ("en", "", "en", "EN", "English"),
+    ("de", "de/", "de", "DE", "Deutsch"),
+    ("fr", "fr/", "fr", "FR", "Français"),
+    ("zh-TW", "zh-tw/", "zh-TW", "繁中", "繁體中文"),
+    ("ja", "ja/", "ja", "日本語", "日本語"),
+    ("ko", "ko/", "ko", "한국어", "한국어"),
     ("vi", "vi/", "vi", "VI", "Tiếng Việt"),
 ]
 esc = lambda s: html.escape(s, quote=True)

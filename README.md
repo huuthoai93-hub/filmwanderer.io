@@ -4,9 +4,9 @@ Website của Film Wanderer, phục vụ bằng GitHub Pages tại https://huuth
 
 | Đường dẫn | Nội dung |
 |---|---|
-| `/` , `/vi/` | Trang chủ Film Wanderer |
+| `/` + `de/ fr/ zh-tw/ ja/ ko/ vi/` | Trang chủ Film Wanderer, 7 ngôn ngữ |
 | `/filmdesk/` | FilmDesk: landing page + `privacy/`, 7 ngôn ngữ |
-| `/filmtrail/` | FilmTrail: landing page + `privacy/`, tiếng Anh và tiếng Việt (`vi/`) |
+| `/filmtrail/` | FilmTrail: landing page + `privacy/`, 7 ngôn ngữ (bản chính sách tiếng Anh là bản chính thức) |
 
 Liên hệ: filmwanderer.support@gmail.com
 
