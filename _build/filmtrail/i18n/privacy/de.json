@@ -1,0 +1,64 @@
+{
+  "title": "FilmTrail · Datenschutzerklärung",
+  "meta_description": "Wie FilmTrail mit deinen Daten umgeht: Alles bleibt auf deinem Handy. Kein Konto, keine Werbung, keine Analyse.",
+  "skip": "Zur Erklärung springen",
+  "nav_label": "Abschnitte",
+  "nav_policy": "Erklärung",
+  "nav_contact": "Kontakt",
+  "lang_label": "Sprache",
+  "tag": "Datenschutzerklärung",
+  "h1_a": "Deine Daten bleiben",
+  "h1_b": "auf deinem Handy.",
+  "updated_label": "GÜLTIG AB",
+  "updated_date": "12. November 2026",
+  "tr_note": "Dies ist eine Übersetzung. Weicht sie von der englischen Fassung ab, gilt die englische Fassung.",
+  "tr_link": "Englische Fassung lesen",
+  "lead": "FilmTrail ist eine kostenlose Android-App von Film Wanderer für Filmfotografen: ein Belichtungsmesser und ein Log, wo jedes Bild entstand. Diese Seite erklärt, was die App nutzt, was dein Handy verlässt und wie du alles löschst.",
+  "short_label": "Kurz gesagt",
+  "short": "FilmTrail hat kein Konto, keine Werbung und keine Analyse und sendet deine Daten an keinen Server von uns.",
+  "toc_h": "Inhalt",
+  "footer_stamp": "FÜR FILM GEMACHT",
+  "footer_home": "FilmTrail-Startseite",
+  "sections": [
+    {
+      "id": "device",
+      "h": "Was die App nutzt und warum",
+      "html": "<p>Alles Folgende wird nur auf deinem Handy gespeichert, im privaten Speicher der App.</p><ul><li><strong>Genauer Standort (GPS)</strong>: wird erfasst, wenn du ein Bild loggst. Während du die App nutzt und bis zu etwa 2 Minuten nach jedem Log, um eine genauere Position zu bekommen, auch wenn du zu einer anderen App wechselst; währenddessen wird durchgehend eine Benachrichtigung angezeigt. FilmTrail fragt nie nach der Berechtigung für den Standortzugriff im Hintergrund und nutzt deinen Standort zu keiner anderen Zeit.</li><li><strong>Mikrofon</strong>: nimmt eine Sprachnotiz zu einem Bild auf, nur solange du die Taste gedrückt hältst.</li><li><strong>Kamera</strong>: zeigt die Szene beim Messen und behält, wenn du es in den Einstellungen einschaltest, ein kleines Referenzbild pro Bild. Auf Handys ohne Lichtsensor wird die Kamera zum Messen verwendet.</li><li><strong>Lichtsensor</strong>: Belichtungsmessung. Messwerte werden nicht gespeichert.</li><li><strong>Benachrichtigungen</strong>: die Benachrichtigung, die angezeigt wird, während ein genauerer Standort ermittelt wird.</li></ul>"
+    },
+    {
+      "id": "photos",
+      "h": "Deine Scans",
+      "html": "<p>Beim Zuordnen öffnet die App nur die Bilder, die du in der Android-Dateiauswahl auswählst, und schreibt GPS-Koordinaten in die EXIF-Daten einer Kopie. FilmTrail hat keine Berechtigung, deine Fotomediathek zu lesen, und lädt deine Bilder nie hoch.</p>"
+    },
+    {
+      "id": "network",
+      "h": "Was dein Handy verlässt",
+      "html": "<ul><li><strong>Kartenhintergrund (optional).</strong> Wenn du zustimmst, den Kartenhintergrund einzuschalten, lädt die App Kartenbilder von <a href=\"https://openfreemap.org\">OpenFreeMap</a>. Wie bei jeder Website erhalten deren Server deine IP-Adresse und den Kartenausschnitt, den du ansiehst. Schaltest du ihn nicht ein, wird nichts heruntergeladen. Deine Pins, Filme und Notizen werden nie gesendet.</li><li><strong>Dialog zum Einschalten des Standorts.</strong> Die App nutzt Google Play-Dienste nur, um den Android-Dialog „Standort einschalten“ mit einem Tipp anzuzeigen. Dieser Dialog unterliegt der <a href=\"https://policies.google.com/privacy\">Datenschutzerklärung von Google</a>.</li><li><strong>Exporte und Backups, die du erstellst.</strong> CSV-, GPX- und KML-Exporte sowie <code>.fltbackup</code>-Backupdateien werden dort gespeichert, wo du willst, oder an die App geteilt, die du wählst. FilmTrail sendet sie nie von selbst irgendwohin.</li></ul>"
+    },
+    {
+      "id": "not",
+      "h": "Was wir nicht tun",
+      "html": "<ul class=\"nots\"><li>Wir verkaufen deine Daten nicht und geben sie an niemanden weiter.</li><li>Keine Werbung, keine Analyse, keine Absturzberichte an einen Server.</li><li>Keine Anmeldung und kein Konto.</li></ul>"
+    },
+    {
+      "id": "delete",
+      "h": "Deine Daten löschen",
+      "html": "<p>Lösche einzelne Bilder, ganze Filme oder alles mit <em>Delete all data</em> in den Daten-Einstellungen der App. Beim Deinstallieren werden ebenfalls alle Daten der App vom Handy entfernt. Deine Originalbilder und exportierten Dateien bleiben unberührt. Die App schaltet die automatische Android-Sicherung aus, daher wird nichts in die Cloud synchronisiert.</p>"
+    },
+    {
+      "id": "children",
+      "h": "Kinder",
+      "html": "<p>FilmTrail richtet sich nicht an Kinder unter 13 Jahren und erhebt wissentlich keine Daten von ihnen. FilmTrail hat keine Server und erhebt von niemandem Daten.</p>"
+    },
+    {
+      "id": "changes",
+      "h": "Änderungen",
+      "html": "<p>Wenn sich diese Erklärung ändert, aktualisieren wir diese Seite und das Datum oben.</p>"
+    },
+    {
+      "id": "contact",
+      "h": "Kontakt",
+      "html": "<p>Fragen zum Datenschutz? Schreib an Film Wanderer unter <a href=\"mailto:{{email}}\">{{email}}</a>.</p>"
+    }
+  ]
+}

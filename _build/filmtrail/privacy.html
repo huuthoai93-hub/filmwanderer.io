@@ -30,7 +30,7 @@
       <a href="#contact">{{nav_contact}}</a>
     </nav>
     <details class="lang">
-      <summary aria-label="{{lang_label}}">{{lang_short}} <span aria-hidden="true">▾</span></summary>
+      <summary><span class="sr-only">{{lang_label}}: </span>{{lang_short}} <span aria-hidden="true">▾</span></summary>
       <ul>
 {{langmenu}}
       </ul>
@@ -57,11 +57,13 @@
 
   <section class="section" id="policy">
     <div class="wrap policy-grid">
-      <nav class="toc" aria-labelledby="toc-h">
-        <h2 class="toc-h" id="toc-h">{{toc_h}}</h2>
-        <ol>
+      <nav class="toc" id="toc" aria-labelledby="toc-h">
+        <details class="toc-d" open>
+          <summary><h2 class="toc-h" id="toc-h">{{toc_h}}</h2></summary>
+          <ol>
 {{toc}}
-        </ol>
+          </ol>
+        </details>
       </nav>
       <div class="clauses">
 {{clauses}}

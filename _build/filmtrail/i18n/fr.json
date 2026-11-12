@@ -1,0 +1,116 @@
+{
+  "tagline": "Posemètre et journal de vues pour photographes argentiques",
+  "meta_description": "FilmTrail est une app Android gratuite pour photographes argentiques : mesurez la lumière, notez où chaque vue a été prise, puis ajoutez le lieu à vos scans. Tout reste sur votre téléphone.",
+  "skip": "Aller aux fonctions",
+  "nav_label": "Sections",
+  "nav_features": "Fonctions",
+  "nav_privacy": "Confidentialité",
+  "nav_faq": "FAQ",
+  "lang_label": "Langue",
+  "hero_tag": "Android · Gratuit · Sans compte",
+  "h1_a": "Votre boîtier argentique",
+  "h1_b": "ne se souvient pas où.",
+  "lead": "FilmTrail mesure la lumière et, d'un geste après le déclenchement, note où chaque vue a été prise. Quand les scans reviennent, l'app ajoute ce lieu aux fichiers.",
+  "notify_small": "PAR E-MAIL",
+  "notify": "Me prévenir au lancement",
+  "mail_subject": "FilmTrail : prévenez-moi à la sortie",
+  "mail_body": "Bonjour Film Wanderer, merci de m'écrire quand FilmTrail sera sur Google Play.",
+  "soon": "Bientôt sur Google Play",
+  "notify_note": "Ouvre votre app e-mail. Une seule réponse le jour du lancement, rien d'autre. Ou écrivez à",
+  "mascot_alt": "La caille de FilmTrail, une randonneuse qui regarde dans des jumelles vertes, une boussole à la main",
+  "features_h": "Une pellicule, cinq étapes",
+  "features_count": "05 vues",
+  "frames": [
+    {
+      "t": "Mesurer la lumière",
+      "p": "Utilise le capteur de lumière du téléphone, comme un posemètre en lumière incidente mesure la lumière qui tombe sur le sujet.",
+      "l": [
+        "Priorité ouverture ou vitesse, correction d'exposition",
+        "ISO repris de votre pellicule",
+        "Étalonnage par téléphone avec un posemètre de confiance"
+      ]
+    },
+    {
+      "t": "Noter chaque vue",
+      "p": "Touchez une fois juste après le déclenchement. FilmTrail garde l'heure, la position GPS et l'exposition utilisée.",
+      "l": [
+        "Appui long pour une note vocale",
+        "Petite photo de référence de la scène, en option",
+        "Tuile de réglages rapides et widget"
+      ]
+    },
+    {
+      "t": "Associer vos scans",
+      "p": "Choisissez les fichiers scannés vue par vue, avec la note vocale et la photo de référence pour vous repérer.",
+      "l": [
+        "Écrit le GPS dans l'EXIF d'une copie",
+        "Les pixels ne sont jamais réencodés",
+        "JPEG et PNG"
+      ]
+    },
+    {
+      "t": "Voir le parcours",
+      "p": "Chaque vue sur une carte avec sa vignette. Touchez un repère pour voir la photo et les détails de la vue.",
+      "l": [
+        "Repères avec vignettes",
+        "Afficher une pellicule ou toutes",
+        "Fichier de sauvegarde pour changer de téléphone"
+      ]
+    },
+    {
+      "t": "Aller plus loin",
+      "p": "Partagez le journal d'une pellicule dans des formats que d'autres apps de cartes et tableurs ouvrent, et retrouvez chaque vue là où vous l'avez prise.",
+      "l": [
+        "GPX pour Organic Maps et OsmAnd",
+        "KMZ pour Google Earth et Google My Maps, avec vos photos comme repères",
+        "CSV pour Excel ou Google Sheets"
+      ]
+    }
+  ],
+  "v_tag": "Confidentialité",
+  "v_h": "Votre parcours reste à vous.",
+  "v_p": "Pas de compte, pas de pub, pas de statistiques. Pellicules, vues, lieux et notes vocales sont stockés uniquement sur votre téléphone.",
+  "v_link": "Lire la politique de confidentialité",
+  "points": [
+    [
+      "Sur votre téléphone",
+      "Rien n'est envoyé sur un serveur à nous. Il n'y en a pas."
+    ],
+    [
+      "Vous choisissez ce que vous partagez",
+      "Exports et sauvegardes vont uniquement là où vous les envoyez."
+    ],
+    [
+      "Carte facultative",
+      "Le fond de carte ne se charge depuis OpenFreeMap qu'avec votre accord."
+    ],
+    [
+      "Effacez quand vous voulez",
+      "Supprimez une vue, une pellicule ou tout dans les réglages."
+    ]
+  ],
+  "faq_h": "Questions",
+  "faqs": [
+    [
+      "C'est gratuit ?",
+      "Oui. FilmTrail est gratuit, sans pub ni achat intégré."
+    ],
+    [
+      "Ça marche hors ligne ?",
+      "Oui. Mesure, journal et association fonctionnent sans connexion. Seul le fond de carte a besoin d'Internet, et vous pouvez le laisser désactivé."
+    ],
+    [
+      "Quels boîtiers ?",
+      "Tout boîtier argentique, 35 mm ou moyen format. FilmTrail ne communique pas avec l'appareil : vous touchez le téléphone après chaque vue."
+    ],
+    [
+      "iPhone ?",
+      "Pas pour l'instant. FilmTrail est uniquement sur Android (8.0 et plus). L'app elle-même est en anglais et en vietnamien."
+    ]
+  ],
+  "closing_h": "Chargez la prochaine pellicule.",
+  "closing_p": "FilmTrail est en test. Envoyez-nous un e-mail : nous répondrons une seule fois, le jour où l'app sera sur Google Play.",
+  "footer_stamp": "FAIT POUR LE FILM",
+  "footer_privacy": "Politique de confidentialité",
+  "status_small": "EN TEST"
+}
