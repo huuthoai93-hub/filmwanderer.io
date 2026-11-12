@@ -408,3 +408,7 @@ footer .links a { display: inline-block; padding: 12px 0; }
 .product .brand img.brand-logo { height: 84px; width: auto; max-width: 100%; object-fit: contain; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brand-logo { box-shadow: 0 0 0 4px #FAF8F3; } }
 :root[data-theme="dark"] .brand-logo { box-shadow: 0 0 0 4px #FAF8F3; }
+
+/* Dark mode: the label is not swept in, because the dark headline ink would sit on the dark page until the sweep reaches it. */
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .hero h1 .hl { animation: none; } }
+:root[data-theme="dark"] .hero h1 .hl { animation: none; }
