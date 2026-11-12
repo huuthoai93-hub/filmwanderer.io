@@ -18,8 +18,8 @@
   "soon": "Sắp có trên Google Play",
   "notify_note": "Mở ứng dụng email trên máy. Chỉ một thư trả lời vào ngày ra mắt, không gửi gì khác. Hoặc viết tới",
   "mascot_alt": "Chim cút FilmTrail đeo ba lô, nhìn qua ống nhòm xanh, tay cầm la bàn",
-  "features_h": "Một cuộn phim, bốn bước",
-  "features_count": "04 khung",
+  "features_h": "Một cuộn phim, năm bước",
+  "features_count": "05 khung",
   "frames": [
     {
       "t": "Đo sáng",
@@ -50,11 +50,20 @@
     },
     {
       "t": "Xem lại hành trình",
-      "p": "Mọi khung trên bản đồ kèm ảnh nhỏ, và log ở các định dạng app khác đọc được.",
+      "p": "Mọi khung hiện trên bản đồ kèm ảnh nhỏ. Chạm vào ghim để xem ảnh và thông tin của khung đó.",
       "l": [
         "Ghim bản đồ có ảnh nhỏ",
-        "CSV, GPX (Organic Maps, OsmAnd) và KML (Google Earth)",
+        "Xem từng cuộn hoặc tất cả",
         "File sao lưu để chuyển sang máy mới"
+      ]
+    },
+    {
+      "t": "Ứng dụng mở rộng",
+      "p": "Chia sẻ log của một cuộn ở định dạng mà app bản đồ và bảng tính khác mở được, rồi xem từng khung ngay tại chỗ bạn đã chụp.",
+      "l": [
+        "GPX cho Organic Maps và OsmAnd",
+        "KMZ cho Google Earth và Google My Maps, ghim là chính ảnh của bạn",
+        "CSV cho Excel hoặc Google Sheets"
       ]
     }
   ],

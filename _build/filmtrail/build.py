@@ -63,15 +63,25 @@ def render(template, values, code, out):
     print("wrote", out.relative_to(REPO))
 
 
-def frames_html(frames):
+# Screenshots for each feature frame (filmtrail/assets/shots/shot-0N.webp, status bar cropped).
+FRAME_SHOTS = [[1], [2], [3, 4], [5], [6, 7]]
+SHOT_SIZE = {7: (379, 852)}
+
+
+def frames_html(frames, root):
     out = []
     for i, f in enumerate(frames, 1):
         items = "\n".join(f"              <li>{esc(x)}</li>" for x in f["l"])
-        # Screenshot placeholder until real ones exist: put filmtrail/assets/shots/shot-0N.webp (540x1226)
-        # and swap the placeholder for <div class="shot has-img"><img ...></div> as on the FilmDesk page.
+        shots = FRAME_SHOTS[i - 1]
+        imgs = []
+        for k, n in enumerate(shots, 1):
+            w, h = SHOT_SIZE.get(n, (540, 1228))
+            alt = esc(f["t"]) + (f" ({k}/{len(shots)})" if len(shots) > 1 else "")
+            imgs.append(f'<img src="{root}assets/shots/shot-{n:02d}.webp" width="{w}" height="{h}" '
+                        f'alt="{alt}" loading="lazy" decoding="async">')
         out.append(f"""        <article class="frame">
           <span class="edge" aria-hidden="true">FILMTRAIL 400 ▸ {i}</span>
-          <div class="shot ph" aria-hidden="true"><span>SCREENSHOT<br>{i:02d}</span></div>
+          <div class="shots n{len(shots)}">{"".join(imgs)}</div>
           <div>
             <h3>{esc(f["t"])}</h3>
             <p>{esc(f["p"])}</p>
@@ -90,7 +100,7 @@ for code, folder, tag, short, _ in LANGS:
     root = "../" * folder.count("/")
     values = {k: esc(v) for k, v in text.items() if isinstance(v, str)}
     values.update(
-        frames=frames_html(text["frames"]),
+        frames=frames_html(text["frames"], root),
         points="\n".join(
             f'          <div class="point"><span class="ic" aria-hidden="true">{i:02d}</span>'
             f"<div><b>{esc(b)}</b><span>{esc(s)}</span></div></div>"

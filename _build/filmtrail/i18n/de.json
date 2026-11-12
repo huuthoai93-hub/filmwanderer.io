@@ -18,8 +18,8 @@
   "soon": "Bald bei Google Play",
   "notify_note": "Öffnet deine E-Mail-App. Eine Antwort am Starttag, sonst nichts. Oder schreib an",
   "mascot_alt": "Die FilmTrail-Wachtel, eine Wanderin mit grünem Fernglas und Kompass in der Hand",
-  "features_h": "Ein Film, vier Schritte",
-  "features_count": "04 Bilder",
+  "features_h": "Ein Film, fünf Schritte",
+  "features_count": "05 Bilder",
   "frames": [
     {
       "t": "Licht messen",
@@ -50,11 +50,20 @@
     },
     {
       "t": "Die Spur sehen",
-      "p": "Jedes Bild auf einer Karte mit Vorschau, und dein Log in Formaten, die andere Apps lesen.",
+      "p": "Jedes Bild mit Vorschau auf der Karte. Tippe auf einen Pin, um Foto und Details des Bildes zu sehen.",
       "l": [
         "Kartenpins mit Vorschaubildern",
-        "CSV, GPX (Organic Maps, OsmAnd) und KML (Google Earth)",
+        "Einen Film oder alle anzeigen",
         "Backup-Datei für ein neues Handy"
+      ]
+    },
+    {
+      "t": "Weiter damit",
+      "p": "Teile das Log eines Films in Formaten, die andere Karten-Apps und Tabellen öffnen, und sieh jedes Bild dort, wo du es gemacht hast.",
+      "l": [
+        "GPX für Organic Maps und OsmAnd",
+        "KMZ für Google Earth und Google My Maps, mit deinen Fotos als Pins",
+        "CSV für Excel oder Google Sheets"
       ]
     }
   ],
