@@ -437,10 +437,14 @@ footer .links a { display: inline-block; padding: 12px 0; }
 .frame-card { position: relative; display: flex; flex-direction: column; gap: 20px; padding: 36px 28px 28px; }
 .frame-card + .frame-card { border-left: 3px solid var(--paper); }
 .frame-card .edge { position: absolute; top: 12px; left: 28px; font-size: 11px; font-weight: 700; letter-spacing: .1em; color: var(--accent); line-height: 1; }
-.exposure { background: #FAF8F3; border-radius: 4px; padding: 18px; display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; min-height: 236px; overflow: hidden; }
-.exposure .brand-logo { height: 76px; width: auto; max-width: 62%; align-self: flex-start; box-shadow: none; }
-.exposure .pic img { display: block; height: 200px; width: auto; }
-.exposure .phone-pic img { height: 210px; border: 3px solid #1A1A1A; border-radius: 10px; margin-bottom: -38px; }
+.exposure { background: #FAF8F3; border-radius: 4px; padding: 16px 20px; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 16px; height: 200px; overflow: hidden; }
+.exposure .brand-logo { height: auto; width: 100%; max-width: 260px; box-shadow: none; }
+.exposure .pic { align-self: stretch; display: flex; align-items: center; }
+.exposure .pic img { display: block; height: 168px; width: auto; }
+.exposure .phone-pic { align-items: flex-start; }
+/* Each plate takes its logo's own ground so the artwork has no visible box. */
+.fd .exposure { background: #FAF8F2; } .ft .exposure { background: #FDFBF7; }
+.exposure .phone-pic img { height: auto; width: 96px; border: 3px solid #1A1A1A; border-radius: 10px; }
 .caption { display: flex; flex-direction: column; gap: 10px; flex: 1; }
 .stamp-status { align-self: flex-start; font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); border: 2px dashed currentColor; padding: 4px 10px; transform: rotate(-1.5deg); }
 .ft .stamp-status { color: #34C25F; }
@@ -460,8 +464,8 @@ footer .links a { display: inline-block; padding: 12px 0; }
   .frame-card { padding: 28px 14px; }
   .frame-card + .frame-card { border-left: 0; border-top: 3px solid var(--paper); }
   .frame-card .edge { display: none; }
-  .exposure { min-height: 0; padding: 14px; }
-  .exposure .brand-logo { height: 60px; }
-  .exposure .pic img { height: 130px; }
-  .exposure .phone-pic img { height: 150px; margin-bottom: -30px; }
+  .exposure { height: 140px; padding: 12px 14px; gap: 10px; }
+  .exposure .pic img { height: 116px; }
+  .ft .exposure .pic img { height: 88px; }
+  .exposure .phone-pic img { height: auto; width: 64px; }
 }
