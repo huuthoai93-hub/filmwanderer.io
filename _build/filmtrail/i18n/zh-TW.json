@@ -18,8 +18,8 @@
   "soon": "即將登上 Google Play",
   "notify_note": "會開啟你的郵件 App。上架當天回覆一封信，不會有其他郵件。或直接寫信到",
   "mascot_alt": "FilmTrail 的鵪鶉，一位拿著羅盤、用綠色望遠鏡眺望的健行者",
-  "features_h": "一捲底片，四個步驟",
-  "features_count": "04 格",
+  "features_h": "一捲底片，五個步驟",
+  "features_count": "05 格",
   "frames": [
     {
       "t": "測光",
@@ -50,11 +50,20 @@
     },
     {
       "t": "看見足跡",
-      "p": "每一格都以縮圖顯示在地圖上，紀錄也能匯出成其他 App 讀得懂的格式。",
+      "p": "每一格都以縮圖顯示在地圖上。點一下圖釘，就能看照片和這一格的資訊。",
       "l": [
         "附縮圖的地圖圖釘",
-        "CSV、GPX（Organic Maps、OsmAnd）與 KML（Google Earth）",
+        "顯示單一底片或全部",
         "換新手機用的備份檔"
+      ]
+    },
+    {
+      "t": "延伸應用",
+      "p": "把一捲底片的紀錄分享成其他地圖 App 和試算表打得開的格式，在拍攝的地點重看每一格。",
+      "l": [
+        "GPX：適用 Organic Maps、OsmAnd",
+        "KMZ：適用 Google Earth、Google 我的地圖，照片直接當圖釘",
+        "CSV：適用 Excel、Google 試算表"
       ]
     }
   ],

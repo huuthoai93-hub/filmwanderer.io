@@ -447,11 +447,18 @@ footer .links a { display: inline-block; padding: 12px 0; }
 }
 @media (min-width: 821px) { .clause .to-toc { display: none; } }
 
-/* Feature frames: a phone-shaped screenshot placeholder until real FilmTrail screenshots are supplied. */
-.frame .shot.ph { width: 100%; max-width: 168px; height: auto; aspect-ratio: 540 / 1226; padding: 0; justify-self: center; border-radius: 12px; border: 3px solid rgba(238, 241, 236, .75);
-  display: grid; place-items: center; text-align: center; font-size: 11px; font-weight: 800; letter-spacing: .1em; line-height: 1.5;
-  color: #3DD68C; filter: none; background: repeating-linear-gradient(135deg, rgba(255,255,255,.06) 0 10px, rgba(255,255,255,.02) 10px 20px); }
-@media (max-width: 820px) { .frame .shot.ph { width: 112px; justify-self: start; font-size: 9px; } }
 /* The status stamp is longer than "Coming soon" in most languages: let it wrap on narrow phones. */
 /* The stamp lands from a larger scale: clip it so it never widens the page on narrow phones. */
 .hero { overflow-x: clip; }
+
+/* Feature frames: real screenshots (status bar cropped), one or two phones per frame, same height. */
+.frame { grid-template-columns: 260px 1fr; }
+.frame .shots { display: flex; gap: 10px; justify-content: center; align-items: flex-start; }
+.frame .shots img { display: block; width: 100%; max-width: 168px; min-width: 0; flex: 1 1 0; height: auto; aspect-ratio: 540 / 1228; object-fit: cover; object-position: top;
+  border-radius: 12px; border: 3px solid rgba(238, 241, 236, .75); background: var(--surface); }
+.frame .shots.n1 img { flex: 0 1 168px; }
+@media (max-width: 820px) {
+  .frame { grid-template-columns: 1fr; }
+  .frame .shots { justify-content: flex-start; }
+  .frame .shots img { flex: 0 1 128px; max-width: 128px; }
+}

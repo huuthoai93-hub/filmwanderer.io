@@ -18,8 +18,8 @@
   "soon": "Coming to Google Play",
   "notify_note": "Opens your email app. One reply on launch day, nothing else. Or write to",
   "mascot_alt": "The FilmTrail quail, a hiker looking through green binoculars with a compass in hand",
-  "features_h": "One roll, four steps",
-  "features_count": "04 frames",
+  "features_h": "One roll, five steps",
+  "features_count": "05 frames",
   "frames": [
     {
       "t": "Meter the light",
@@ -50,11 +50,20 @@
     },
     {
       "t": "See the trail",
-      "p": "Every frame on a map with a thumbnail, and your log in the formats other apps read.",
+      "p": "Every frame on a map with its thumbnail. Tap a pin to see the photo and the frame's details.",
       "l": [
         "Map pins with thumbnails",
-        "CSV, GPX (Organic Maps, OsmAnd) and KML (Google Earth)",
+        "Show one roll or all of them",
         "Backup file to move to a new phone"
+      ]
+    },
+    {
+      "t": "Take it further",
+      "p": "Share a roll's log in formats other map apps and spreadsheets open, and see each frame where you shot it.",
+      "l": [
+        "GPX for Organic Maps and OsmAnd",
+        "KMZ for Google Earth and Google My Maps, with your photos as pins",
+        "CSV for Excel or Google Sheets"
       ]
     }
   ],

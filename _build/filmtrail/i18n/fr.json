@@ -18,8 +18,8 @@
   "soon": "Bientôt sur Google Play",
   "notify_note": "Ouvre votre app e-mail. Une seule réponse le jour du lancement, rien d'autre. Ou écrivez à",
   "mascot_alt": "La caille de FilmTrail, une randonneuse qui regarde dans des jumelles vertes, une boussole à la main",
-  "features_h": "Une pellicule, quatre étapes",
-  "features_count": "04 vues",
+  "features_h": "Une pellicule, cinq étapes",
+  "features_count": "05 vues",
   "frames": [
     {
       "t": "Mesurer la lumière",
@@ -50,11 +50,20 @@
     },
     {
       "t": "Voir le parcours",
-      "p": "Chaque vue sur une carte avec sa vignette, et votre journal dans les formats que lisent les autres apps.",
+      "p": "Chaque vue sur une carte avec sa vignette. Touchez un repère pour voir la photo et les détails de la vue.",
       "l": [
         "Repères avec vignettes",
-        "CSV, GPX (Organic Maps, OsmAnd) et KML (Google Earth)",
+        "Afficher une pellicule ou toutes",
         "Fichier de sauvegarde pour changer de téléphone"
+      ]
+    },
+    {
+      "t": "Aller plus loin",
+      "p": "Partagez le journal d'une pellicule dans des formats que d'autres apps de cartes et tableurs ouvrent, et retrouvez chaque vue là où vous l'avez prise.",
+      "l": [
+        "GPX pour Organic Maps et OsmAnd",
+        "KMZ pour Google Earth et Google My Maps, avec vos photos comme repères",
+        "CSV pour Excel ou Google Sheets"
       ]
     }
   ],
