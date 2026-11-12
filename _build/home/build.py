@@ -20,7 +20,7 @@ for code, folder, tag, short, _, fd, ft in LANGS:
     alts = "\n".join(f'<link rel="alternate" hreflang="{t}" href="{BASE}{f}">' for _, f, t, _, _, _, _ in LANGS)
     alts += f'\n<link rel="alternate" hreflang="x-default" href="{BASE}">'
     values.update(html_lang=tag, url=BASE + folder, root=root, hreflangs=alts, langmenu=menu, lang_short=short,
-                  folder=fd, ft_folder=ft, email=SITE["email"], play=html.escape(SITE["play_developer"], quote=True))
+                  folder=fd, ft_folder=ft, email=SITE["email"], email_wbr=SITE["email"].replace("@", "@<wbr>"), play=html.escape(SITE["play_developer"], quote=True))
     out = REPO / folder / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(re.sub(r"\{\{(\w+)\}\}", lambda m: values[m.group(1)], template), encoding="utf-8")
