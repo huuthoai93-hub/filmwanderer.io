@@ -23,7 +23,7 @@
     {
       "id": "device",
       "h": "Was die App nutzt und warum",
-      "html": "<p>Alles Folgende wird nur auf deinem Handy gespeichert, im privaten Speicher der App.</p><ul><li><strong>Genauer Standort (GPS)</strong>: wird erfasst, wenn du ein Bild loggst. Nur solange die App geöffnet ist und bis zu etwa 2 Minuten nach jedem Log, um eine genauere Position zu bekommen; währenddessen wird eine Benachrichtigung angezeigt. FilmTrail verfolgt deinen Standort nicht im Hintergrund.</li><li><strong>Mikrofon</strong>: nimmt eine Sprachnotiz zu einem Bild auf, nur solange du die Taste gedrückt hältst.</li><li><strong>Kamera</strong>: zeigt die Szene beim Messen und behält, wenn du es in den Einstellungen einschaltest, ein kleines Referenzbild pro Bild. Auf Handys ohne Lichtsensor wird die Kamera zum Messen verwendet.</li><li><strong>Lichtsensor</strong>: Belichtungsmessung. Messwerte werden nicht gespeichert.</li><li><strong>Benachrichtigungen</strong>: die Benachrichtigung, die angezeigt wird, während ein genauerer Standort ermittelt wird.</li></ul>"
+      "html": "<p>Alles Folgende wird nur auf deinem Handy gespeichert, im privaten Speicher der App.</p><ul><li><strong>Genauer Standort (GPS)</strong>: wird erfasst, wenn du ein Bild loggst. Während du die App nutzt und bis zu etwa 2 Minuten nach jedem Log, um eine genauere Position zu bekommen, auch wenn du zu einer anderen App wechselst; währenddessen wird durchgehend eine Benachrichtigung angezeigt. FilmTrail fragt nie nach der Berechtigung für den Standortzugriff im Hintergrund und nutzt deinen Standort zu keiner anderen Zeit.</li><li><strong>Mikrofon</strong>: nimmt eine Sprachnotiz zu einem Bild auf, nur solange du die Taste gedrückt hältst.</li><li><strong>Kamera</strong>: zeigt die Szene beim Messen und behält, wenn du es in den Einstellungen einschaltest, ein kleines Referenzbild pro Bild. Auf Handys ohne Lichtsensor wird die Kamera zum Messen verwendet.</li><li><strong>Lichtsensor</strong>: Belichtungsmessung. Messwerte werden nicht gespeichert.</li><li><strong>Benachrichtigungen</strong>: die Benachrichtigung, die angezeigt wird, während ein genauerer Standort ermittelt wird.</li></ul>"
     },
     {
       "id": "photos",
@@ -48,7 +48,7 @@
     {
       "id": "children",
       "h": "Kinder",
-      "html": "<p>FilmTrail richtet sich nicht an Kinder unter 13 Jahren und erhebt wissentlich keine Daten von ihnen. Die App erhebt von niemandem Daten auf Servern.</p>"
+      "html": "<p>FilmTrail richtet sich nicht an Kinder unter 13 Jahren und erhebt wissentlich keine Daten von ihnen. FilmTrail hat keine Server und erhebt von niemandem Daten.</p>"
     },
     {
       "id": "changes",

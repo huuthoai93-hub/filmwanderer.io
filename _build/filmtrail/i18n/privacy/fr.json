@@ -23,7 +23,7 @@
     {
       "id": "device",
       "h": "Ce que l'app utilise et pourquoi",
-      "html": "<p>Tout ce qui suit est stocké uniquement sur votre téléphone, dans l'espace privé de l'app.</p><ul><li><strong>Position précise (GPS)</strong> : enregistrée quand vous notez une vue. Seulement quand l'app est ouverte, et jusqu'à environ 2 minutes après chaque note pour obtenir une position plus précise ; une notification s'affiche pendant ce temps. FilmTrail ne suit pas votre position en arrière-plan.</li><li><strong>Micro</strong> : enregistre une note vocale pour une vue, seulement tant que vous maintenez le bouton.</li><li><strong>Appareil photo</strong> : affiche la scène pendant la mesure et, si vous l'activez dans les réglages, garde une petite photo de référence pour chaque vue. Sur les téléphones sans capteur de lumière, l'appareil photo sert à la mesure.</li><li><strong>Capteur de lumière</strong> : mesure de la lumière. Les valeurs ne sont pas enregistrées.</li><li><strong>Notifications</strong> : la notification affichée pendant l'obtention d'une position plus précise.</li></ul>"
+      "html": "<p>Tout ce qui suit est stocké uniquement sur votre téléphone, dans l'espace privé de l'app.</p><ul><li><strong>Position précise (GPS)</strong> : enregistrée quand vous notez une vue. Pendant que vous utilisez l'app, et jusqu'à environ 2 minutes après chaque note pour obtenir une position plus précise, même si vous passez à une autre app ; une notification reste affichée pendant tout ce temps. FilmTrail ne demande jamais l'autorisation de localisation en arrière-plan et n'utilise votre position à aucun autre moment.</li><li><strong>Micro</strong> : enregistre une note vocale pour une vue, seulement tant que vous maintenez le bouton.</li><li><strong>Appareil photo</strong> : affiche la scène pendant la mesure et, si vous l'activez dans les réglages, garde une petite photo de référence pour chaque vue. Sur les téléphones sans capteur de lumière, l'appareil photo sert à la mesure.</li><li><strong>Capteur de lumière</strong> : mesure de la lumière. Les valeurs ne sont pas enregistrées.</li><li><strong>Notifications</strong> : la notification affichée pendant l'obtention d'une position plus précise.</li></ul>"
     },
     {
       "id": "photos",
@@ -48,7 +48,7 @@
     {
       "id": "children",
       "h": "Enfants",
-      "html": "<p>FilmTrail ne s'adresse pas aux enfants de moins de 13 ans et ne collecte sciemment aucune donnée les concernant. L'app ne collecte de données sur un serveur auprès de personne.</p>"
+      "html": "<p>FilmTrail ne s'adresse pas aux enfants de moins de 13 ans et ne collecte sciemment aucune donnée les concernant. FilmTrail n'a pas de serveur et ne collecte de données auprès de personne.</p>"
     },
     {
       "id": "changes",
