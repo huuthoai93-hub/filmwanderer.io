@@ -42,7 +42,7 @@ Không nói về việc nhà làm app ở Việt Nam.
 - Logo của từng app phải dùng **nguyên bản** thiết kế của Thoai, kể cả dòng chữ nhỏ bên dưới, không cắt, không vẽ lại, không đổi màu:
   - FilmDesk: chim cút ngậm cuộn phim, chữ "FilmDesk" (Film đen, Desk đỏ), dòng nhỏ "Index & Archive app". File: `filmdesk/assets/brand/filmdesk-logo.webp`.
   - FilmTrail: chim cút cầm ống nhòm và la bàn, chữ "FilmTrail" (Film đen, Trail xanh lá), dòng nhỏ "Metering - Tracking - Tagging App". File: `filmtrail/assets/brand/filmtrail-logo.webp`.
-- Ở chế độ tối, logo đặt trong khung chữ nhật nền trắng ngà (màu nền gốc của ảnh), bo tròn 4 góc. Cách khác được Thoai cho phép: đổi màu phần đen của logo. Chưa dùng cách này.
+- Site chỉ có giao diện sáng (Thoai quyết định 2026-11-12, bỏ chế độ tối để trang đẹp nhất). Logo Film Wanderer nằm thẳng trên nền trang, đã bỏ nền trắng.
 - Font mono (JetBrains Mono ExtraBold cho tiêu đề) đang dùng chung ở cả ba phần site.
 
 ## Evidence on Hand
