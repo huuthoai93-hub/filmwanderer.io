@@ -18,14 +18,46 @@
   "short": "FilmTrail has no account, no ads and no analytics, and it does not send your data to any server of ours.",
   "toc_h": "Contents",
   "sections": [
-    {"id": "device", "h": "What the app uses and why", "html": "<p>Everything below is stored only on your phone, in the app's private storage.</p><ul><li><strong>Precise location (GPS)</strong>: recorded when you log a frame. Only while the app is open, and for up to about 2 minutes after each log to get a more accurate fix; a notification is shown during that time. FilmTrail does not track your location in the background.</li><li><strong>Microphone</strong>: records a voice note for a frame, only while you hold the button.</li><li><strong>Camera</strong>: shows the scene while metering and, if you turn it on in Settings, keeps a small reference picture for each frame. On phones without a light sensor the camera is used for metering.</li><li><strong>Light sensor</strong>: light metering. Readings are not stored.</li><li><strong>Notifications</strong>: the notification shown while a more accurate location is being taken.</li></ul>"},
-    {"id": "photos", "h": "Your scans", "html": "<p>When you match frames, the app opens only the pictures you pick in Android's file picker and writes GPS coordinates into the EXIF of a copy. FilmTrail has no permission to read your photo library and never uploads your pictures.</p>"},
-    {"id": "network", "h": "What leaves your phone", "html": "<ul><li><strong>Map background (optional).</strong> If you agree to turn on the map background, the app downloads map images from <a href=\"https://openfreemap.org\">OpenFreeMap</a>. Like any website, their servers receive your IP address and the map area you are viewing. If you don't turn it on, nothing is downloaded. Your pins, rolls and notes are never sent.</li><li><strong>Turn-on-location dialog.</strong> The app uses Google Play services only to show Android's one-tap \"turn on location\" dialog. That dialog is handled under <a href=\"https://policies.google.com/privacy\">Google's Privacy Policy</a>.</li><li><strong>Exports and backups you make.</strong> CSV, GPX and KML exports and <code>.fltbackup</code> backup files are saved where you choose or shared to the app you choose. FilmTrail never sends them anywhere on its own.</li></ul>"},
-    {"id": "not", "h": "What we don't do", "html": "<ul class=\"nots\"><li>We don't sell or share your data with anyone.</li><li>No ads, no analytics, no crash reporting to a server.</li><li>No sign-in and no account.</li></ul>"},
-    {"id": "delete", "h": "Deleting your data", "html": "<p>Delete single frames, whole rolls, or everything with <em>Delete all data</em> in the app's Data settings. Uninstalling the app also removes all of its data from the phone. Your original pictures and the files you exported are not touched. The app turns off Android's automatic backup, so nothing is synced to the cloud.</p>"},
-    {"id": "children", "h": "Children", "html": "<p>FilmTrail is not directed at children under 13 and does not knowingly collect any data from them. It collects no data on its servers from anyone.</p>"},
-    {"id": "changes", "h": "Changes", "html": "<p>If this policy changes, we will update this page and the effective date at the top.</p>"},
-    {"id": "contact", "h": "Contact", "html": "<p>Questions about privacy? Write to Film Wanderer at <a href=\"mailto:{{email}}\">{{email}}</a>.</p>"}
+    {
+      "id": "device",
+      "h": "What the app uses and why",
+      "html": "<p>Everything below is stored only on your phone, in the app's private storage.</p><ul><li><strong>Precise location (GPS)</strong>: recorded when you log a frame. While you use the app, and for up to about 2 minutes after each log to get a more accurate fix, even if you switch to another app; a notification is shown the whole time. FilmTrail never asks for background location permission and does not use your location at any other time.</li><li><strong>Microphone</strong>: records a voice note for a frame, only while you hold the button.</li><li><strong>Camera</strong>: shows the scene while metering and, if you turn it on in Settings, keeps a small reference picture for each frame. On phones without a light sensor the camera is used for metering.</li><li><strong>Light sensor</strong>: light metering. Readings are not stored.</li><li><strong>Notifications</strong>: the notification shown while a more accurate location is being taken.</li></ul>"
+    },
+    {
+      "id": "photos",
+      "h": "Your scans",
+      "html": "<p>When you match frames, the app opens only the pictures you pick in Android's file picker and writes GPS coordinates into the EXIF of a copy. FilmTrail has no permission to read your photo library and never uploads your pictures.</p>"
+    },
+    {
+      "id": "network",
+      "h": "What leaves your phone",
+      "html": "<ul><li><strong>Map background (optional).</strong> If you agree to turn on the map background, the app downloads map images from <a href=\"https://openfreemap.org\">OpenFreeMap</a>. Like any website, their servers receive your IP address and the map area you are viewing. If you don't turn it on, nothing is downloaded. Your pins, rolls and notes are never sent.</li><li><strong>Turn-on-location dialog.</strong> The app uses Google Play services only to show Android's one-tap \"turn on location\" dialog. That dialog is handled under <a href=\"https://policies.google.com/privacy\">Google's Privacy Policy</a>.</li><li><strong>Exports and backups you make.</strong> CSV, GPX and KML exports and <code>.fltbackup</code> backup files are saved where you choose or shared to the app you choose. FilmTrail never sends them anywhere on its own.</li></ul>"
+    },
+    {
+      "id": "not",
+      "h": "What we don't do",
+      "html": "<ul class=\"nots\"><li>We don't sell or share your data with anyone.</li><li>No ads, no analytics, no crash reporting to a server.</li><li>No sign-in and no account.</li></ul>"
+    },
+    {
+      "id": "delete",
+      "h": "Deleting your data",
+      "html": "<p>Delete single frames, whole rolls, or everything with <em>Delete all data</em> in the app's Data settings. Uninstalling the app also removes all of its data from the phone. Your original pictures and the files you exported are not touched. The app turns off Android's automatic backup, so nothing is synced to the cloud.</p>"
+    },
+    {
+      "id": "children",
+      "h": "Children",
+      "html": "<p>FilmTrail is not directed at children under 13 and does not knowingly collect any data from them. FilmTrail has no servers and collects no data from anyone.</p>"
+    },
+    {
+      "id": "changes",
+      "h": "Changes",
+      "html": "<p>If this policy changes, we will update this page and the effective date at the top.</p>"
+    },
+    {
+      "id": "contact",
+      "h": "Contact",
+      "html": "<p>Questions about privacy? Write to Film Wanderer at <a href=\"mailto:{{email}}\">{{email}}</a>.</p>"
+    }
   ],
   "footer_stamp": "MADE FOR FILM",
   "footer_home": "FilmTrail home"

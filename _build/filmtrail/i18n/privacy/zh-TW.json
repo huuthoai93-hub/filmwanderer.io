@@ -1,0 +1,64 @@
+{
+  "title": "FilmTrail · 隱私權政策",
+  "meta_description": "FilmTrail 如何處理你的資料：一切都留在你的手機。沒有帳號、沒有廣告、沒有分析。",
+  "skip": "跳到政策內容",
+  "nav_label": "區塊",
+  "nav_policy": "政策",
+  "nav_contact": "聯絡",
+  "lang_label": "語言",
+  "tag": "隱私權政策",
+  "h1_a": "你的資料",
+  "h1_b": "留在你的手機。",
+  "updated_label": "生效日期",
+  "updated_date": "2026 年 11 月 12 日",
+  "tr_note": "本頁為翻譯版本。若與英文版有出入，以英文版為準。",
+  "tr_link": "閱讀英文版",
+  "lead": "FilmTrail 是 Film Wanderer 為底片攝影人製作的免費 Android App：一個測光表，以及每一格拍攝地點的紀錄。本頁說明 App 使用哪些功能、哪些資料會離開你的手機，以及如何刪除。",
+  "short_label": "重點",
+  "short": "FilmTrail 沒有帳號、沒有廣告、沒有分析，也不會把你的資料傳到我們的任何伺服器。",
+  "toc_h": "目錄",
+  "footer_stamp": "為底片而做",
+  "footer_home": "FilmTrail 首頁",
+  "sections": [
+    {
+      "id": "device",
+      "h": "App 使用什麼、為什麼",
+      "html": "<p>以下資料都只存放在你手機中 App 的私人儲存空間。</p><ul><li><strong>精確位置（GPS）</strong>：在你記錄一格時取得。使用 App 期間，以及每次記錄後最多約 2 分鐘持續取得以提高精確度，即使你切換到其他 App 也會繼續；這段期間會一直顯示通知。FilmTrail 從不要求背景位置權限，其他時間也不會使用你的位置。</li><li><strong>麥克風</strong>：只在你按住按鈕時，為一格錄下語音備忘。</li><li><strong>相機</strong>：測光時顯示畫面；若你在設定中開啟，會為每一格保留一張小參考照。在沒有光線感測器的手機上，會改用相機測光。</li><li><strong>光線感測器</strong>：用於測光，讀數不會儲存。</li><li><strong>通知</strong>：在取得更精確位置期間顯示的通知。</li></ul>"
+    },
+    {
+      "id": "photos",
+      "h": "你的掃描檔",
+      "html": "<p>對應時，App 只會開啟你在 Android 檔案選擇器中挑選的圖片，並把 GPS 座標寫入副本的 EXIF。FilmTrail 沒有讀取你相簿的權限，也從不上傳你的圖片。</p>"
+    },
+    {
+      "id": "network",
+      "h": "哪些資料會離開你的手機",
+      "html": "<ul><li><strong>地圖底圖（可選）。</strong>若你同意開啟地圖底圖，App 會從 <a href=\"https://openfreemap.org\">OpenFreeMap</a> 下載地圖圖片。和任何網站一樣，對方伺服器會收到你的 IP 位址和你正在查看的地圖範圍。不開啟就不會下載任何東西。你的圖釘、底片捲和備忘從不會被傳送。</li><li><strong>開啟定位的對話框。</strong>App 只為了顯示 Android 一鍵「開啟定位」對話框而使用 Google Play 服務。該對話框適用 <a href=\"https://policies.google.com/privacy\">Google 隱私權政策</a>。</li><li><strong>你建立的匯出與備份。</strong>CSV、GPX、KML 匯出檔和 <code>.fltbackup</code> 備份檔會存到你選擇的位置，或分享給你選擇的 App。FilmTrail 從不自行把它們傳到任何地方。</li></ul>"
+    },
+    {
+      "id": "not",
+      "h": "我們不做的事",
+      "html": "<ul class=\"nots\"><li>我們不販售你的資料，也不與任何人分享。</li><li>沒有廣告、沒有分析，也不會向伺服器回報當機。</li><li>不需登入，也沒有帳號。</li></ul>"
+    },
+    {
+      "id": "delete",
+      "h": "刪除你的資料",
+      "html": "<p>你可以在 App 的資料設定中刪除單一格、整捲，或用<em>Delete all data</em>全部刪除。解除安裝 App 也會從手機移除它的所有資料。你的原始圖片和匯出的檔案不受影響。App 關閉了 Android 自動備份，因此不會同步到雲端。</p>"
+    },
+    {
+      "id": "children",
+      "h": "兒童",
+      "html": "<p>FilmTrail 並非以 13 歲以下兒童為對象，也不會在知情的情況下收集他們的資料。FilmTrail 沒有伺服器，不收集任何人的資料。</p>"
+    },
+    {
+      "id": "changes",
+      "h": "變更",
+      "html": "<p>若本政策有所變更，我們會更新本頁及頂部的生效日期。</p>"
+    },
+    {
+      "id": "contact",
+      "h": "聯絡",
+      "html": "<p>對隱私有疑問？請寫信給 Film Wanderer：<a href=\"mailto:{{email}}\">{{email}}</a>。</p>"
+    }
+  ]
+}
