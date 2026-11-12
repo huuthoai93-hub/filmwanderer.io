@@ -386,10 +386,9 @@ footer .links a { display: inline-block; padding: 12px 0; }
 .lang summary { min-height: 44px; }
 .nav a { min-width: 44px; text-align: center; }
 
-/* Film Wanderer logo (original artwork on white, tagline kept). Dark mode: it sits on its own white plate. */
-.fw-logo { display: block; width: auto; height: 52px; background: #FFFFFF; border-radius: 6px; }
-.fw-foot, .fw-sign .fw-logo { height: 88px; }
+/* Film Wanderer logo: original artwork on a transparent background, tagline kept. Dark mode swaps in a light-ink version (<picture>). */
+.fw-logo { display: block; width: auto; height: 48px; }
+.fw-foot, .fw-sign .fw-logo { height: 80px; }
 .fw-sign { display: inline-block; margin-top: 14px; }
+.fw-sign picture { display: block; }
 footer .wrap { align-items: flex-start; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .fw-logo { box-shadow: 0 0 0 4px #FFFFFF; } }
-:root[data-theme="dark"] .fw-logo { box-shadow: 0 0 0 4px #FFFFFF; }
