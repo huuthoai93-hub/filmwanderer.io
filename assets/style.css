@@ -422,7 +422,7 @@ footer .links a { display: inline-block; padding: 12px 0; }
   .closing-cta .btn .big { font-size: 16px; }
 }
 
-/* ---------- Home: the two apps as frames on one roll (prototype) ---------- */
+/* ---------- Home: the two apps as frames on one roll  ---------- */
 .reel {
   --rail: 40px;
   background: var(--strip); color: var(--on-strip); border-radius: 2px; position: relative;
@@ -437,11 +437,10 @@ footer .links a { display: inline-block; padding: 12px 0; }
 .frame-card { position: relative; display: flex; flex-direction: column; gap: 20px; padding: 36px 28px 28px; }
 .frame-card + .frame-card { border-left: 3px solid var(--paper); }
 .frame-card .edge { position: absolute; top: 12px; left: 28px; font-size: 11px; font-weight: 700; letter-spacing: .1em; color: var(--accent); line-height: 1; }
-.exposure { background: #FAF8F3; border-radius: 4px; padding: 16px 20px; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 16px; height: 200px; overflow: hidden; }
+.exposure { background: #FAF8F3; border-radius: 4px; padding: 16px 20px; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 16px; overflow: hidden; }
 .exposure .brand-logo { height: auto; width: 100%; max-width: 260px; box-shadow: none; }
-.exposure .phones { display: flex; gap: 10px; align-self: start; }
+.exposure .phones { display: flex; gap: 10px; align-self: center; }
 .exposure .phones > * { width: 92px; height: auto; aspect-ratio: 540 / 1226; object-fit: cover; object-position: top; border: 3px solid #1A1A1A; border-radius: 10px; display: block; background: #E9E4D6; }
-.exposure .phones > *:nth-child(2) { margin-top: 28px; }
 .exposure .ph { display: flex; align-items: center; justify-content: center; text-align: center; font-size: 9px; font-weight: 800; letter-spacing: .08em; color: #66614F; line-height: 1.4;
   background: repeating-linear-gradient(135deg, #EFEBDF 0 8px, #E6E0D0 8px 16px); }
 /* Each plate takes its logo's own ground so the artwork has no visible box. */
@@ -466,9 +465,8 @@ footer .links a { display: inline-block; padding: 12px 0; }
   .frame-card { padding: 28px 14px; }
   .frame-card + .frame-card { border-left: 0; border-top: 3px solid var(--paper); }
   .frame-card .edge { display: none; }
-  .exposure { height: 140px; padding: 12px 14px; gap: 10px; }
+  .exposure { padding: 12px 14px; gap: 10px; }
   .exposure .phones { gap: 6px; }
   .exposure .phones > * { width: 56px; height: auto; border-width: 2px; border-radius: 7px; }
-  .exposure .phones > *:nth-child(2) { margin-top: 18px; }
   .exposure .ph { font-size: 7px; }
 }
