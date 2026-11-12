@@ -1,0 +1,50 @@
+{
+  "tagline": "Light meter and frame log for film photographers",
+  "meta_description": "FilmTrail is a free Android app for film photographers: meter the light, log where each frame was shot, then put the location into your scans. Everything stays on your phone.",
+  "skip": "Skip to features",
+  "nav_label": "Sections",
+  "nav_features": "Features",
+  "nav_privacy": "Privacy",
+  "nav_faq": "FAQ",
+  "lang_label": "Language",
+  "hero_tag": "Android · Free · No account",
+  "h1_a": "Your film camera",
+  "h1_b": "can't remember where.",
+  "lead": "FilmTrail meters the light and, with one tap after you release the shutter, logs where each frame was shot. When the scans come back, it puts that location into the files.",
+  "notify_small": "TELL ME WHEN",
+  "notify": "It's on Google Play",
+  "mail_subject": "FilmTrail: tell me when it's out",
+  "mail_body": "Hi Film Wanderer, please email me when FilmTrail is on Google Play.",
+  "soon": "Coming soon",
+  "notify_note": "Or write to us any time:",
+  "mascot_alt": "The FilmTrail quail, a hiker looking through green binoculars with a compass in hand",
+  "features_h": "One roll, four steps",
+  "features_count": "04 frames",
+  "frames": [
+    {"t": "Meter the light", "p": "Uses the phone's light sensor, the same way an incident meter reads the light falling on your subject.", "l": ["Aperture or shutter priority, EV compensation", "Set ISO from your film", "Per-phone calibration against a meter you trust"]},
+    {"t": "Log every frame", "p": "Tap once right after the shutter. FilmTrail keeps the time, the GPS position and the exposure you used.", "l": ["Hold to add a voice note", "Optional small reference picture of the scene", "Quick Settings tile and home screen widget"]},
+    {"t": "Match your scans", "p": "Pick the scanned files, frame by frame, with the voice note and reference picture to remind you which is which.", "l": ["Writes GPS into the EXIF of a copy", "Pixels are never re-encoded", "JPEG and PNG"]},
+    {"t": "See the trail", "p": "Every frame on a map with a thumbnail, and your log in the formats other apps read.", "l": ["Map pins with thumbnails", "CSV, GPX (Organic Maps, OsmAnd) and KML (Google Earth)", "Backup file to move to a new phone"]}
+  ],
+  "v_tag": "Privacy",
+  "v_h": "Your trail stays with you.",
+  "v_p": "No account, no ads, no analytics. Rolls, frames, locations and voice notes are stored only on your phone.",
+  "v_link": "Read the privacy policy",
+  "points": [
+    ["On your phone", "Nothing is uploaded to a server of ours. There isn't one."],
+    ["You choose what to share", "Exports and backups go only where you send them."],
+    ["Map is optional", "The map background loads from OpenFreeMap only after you agree."],
+    ["Delete any time", "Remove a frame, a roll, or everything in Settings."]
+  ],
+  "faq_h": "Questions",
+  "faqs": [
+    ["Is it free?", "Yes. FilmTrail is free, with no ads and no in-app purchases."],
+    ["Does it work offline?", "Yes. Metering, logging and matching work without a connection. Only the map background needs the internet, and you can leave it off."],
+    ["Which cameras?", "Any film camera, 35 mm or medium format. FilmTrail doesn't talk to the camera; you tap the phone after each shot."],
+    ["iPhone?", "Not for now. FilmTrail is Android only (Android 8.0 and later)."]
+  ],
+  "closing_h": "Load the next roll.",
+  "closing_p": "FilmTrail is in testing. Leave your email and we'll tell you when it's on Google Play.",
+  "footer_stamp": "MADE FOR FILM",
+  "footer_privacy": "Privacy policy"
+}
