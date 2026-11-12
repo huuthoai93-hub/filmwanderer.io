@@ -67,11 +67,12 @@ def frames_html(frames):
     out = []
     for i, f in enumerate(frames, 1):
         items = "\n".join(f"              <li>{esc(x)}</li>" for x in f["l"])
-        out.append(f"""        <article class="frame text">
+        # Screenshot placeholder until real ones exist: put filmtrail/assets/shots/shot-0N.webp (540x1226)
+        # and swap the placeholder for <div class="shot has-img"><img ...></div> as on the FilmDesk page.
+        out.append(f"""        <article class="frame">
           <span class="edge" aria-hidden="true">FILMTRAIL 400 ▸ {i}</span>
-          <span class="big-no" aria-hidden="true">{i:02d}</span>
+          <div class="shot ph" aria-hidden="true"><span>SCREENSHOT<br>{i:02d}</span></div>
           <div>
-            <span class="no" aria-hidden="true">{i:02d} ▸ {i:02d}A</span>
             <h3>{esc(f["t"])}</h3>
             <p>{esc(f["p"])}</p>
             <ul>
