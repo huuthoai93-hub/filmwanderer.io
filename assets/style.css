@@ -401,3 +401,23 @@ footer .links a { display: inline-block; padding: 12px 0; }
 .product .brand img.brand-logo { height: 84px; width: auto; max-width: 100%; object-fit: contain; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brand-logo { box-shadow: 0 0 0 4px #FAF8F3; } }
 :root[data-theme="dark"] .brand-logo { box-shadow: 0 0 0 4px #FAF8F3; }
+
+/* Dark mode: the label is not swept in, because the dark headline ink would sit on the dark page until the sweep reaches it. */
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .hero h1 .hl { animation: none; } }
+:root[data-theme="dark"] .hero h1 .hl { animation: none; }
+
+/* Home fixes (critique 2026-11-12): apps reach the first phone screen, email breaks only after @, 44px targets. */
+.home-hero h1 { margin-top: 0; text-wrap: balance; }
+.closing-cta .btn .big { overflow-wrap: normal; word-break: normal; }
+.home-logo { display: inline-flex; align-items: center; min-height: 44px; }
+.lang summary { min-height: 44px; }
+.closing .cta-note a { display: inline-flex; align-items: center; min-height: 44px; }
+@media (max-width: 520px) {
+  .home-hero { padding: 28px 0 32px; }
+  .home-hero h1 { font-size: clamp(28px, 8.4vw, 40px); margin-bottom: 16px; }
+  .home-hero h1 br { display: none; }
+  .home-hero p.lead { font-size: 16px; margin-bottom: 0; }
+  #apps { padding-top: 32px; }
+  #apps .section-title { margin-bottom: 20px; }
+  .closing-cta .btn .big { font-size: 16px; }
+}
