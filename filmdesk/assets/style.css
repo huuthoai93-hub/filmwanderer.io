@@ -380,3 +380,8 @@ footer .links a { display: inline-block; padding: 12px 0; }
 /* Dark mode: the label is not swept in, because the dark headline ink would sit on the dark page until the sweep reaches it. */
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .hero h1 .hl { animation: none; } }
 :root[data-theme="dark"] .hero h1 .hl { animation: none; }
+
+/* Screen-reader-only text (e.g. "Language:" before the visible EN in the language button). */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.lang summary { min-height: 44px; }
+.nav a { min-width: 44px; text-align: center; }

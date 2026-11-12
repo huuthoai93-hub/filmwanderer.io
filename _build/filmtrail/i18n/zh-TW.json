@@ -11,12 +11,12 @@
   "h1_a": "底片相機",
   "h1_b": "記不得你在哪裡拍。",
   "lead": "FilmTrail 會測光，並在你按下快門後輕點一下，記下每一格的拍攝地點。掃描檔回來後，再把位置寫進檔案。",
-  "notify_small": "上架時通知我",
-  "notify": "在 Google Play 上架時",
+  "notify_small": "透過電子郵件",
+  "notify": "上架時通知我",
   "mail_subject": "FilmTrail：上架時請通知我",
   "mail_body": "Film Wanderer 你好，FilmTrail 在 Google Play 上架時請寫信通知我。",
-  "soon": "即將上架",
-  "notify_note": "也可以隨時寫信給我們：",
+  "soon": "即將登上 Google Play",
+  "notify_note": "會開啟你的郵件 App。上架當天回覆一封信，不會有其他郵件。或直接寫信到",
   "mascot_alt": "FilmTrail 的鵪鶉，一位拿著羅盤、用綠色望遠鏡眺望的健行者",
   "features_h": "一捲底片，四個步驟",
   "features_count": "04 格",
@@ -100,7 +100,8 @@
     ]
   ],
   "closing_h": "裝上下一捲吧。",
-  "closing_p": "FilmTrail 正在測試中。留下你的 email，Google Play 上架時我們會通知你。",
+  "closing_p": "FilmTrail 正在測試中。寄一封信給我們，App 在 Google Play 上架當天我們會回覆一次。",
   "footer_stamp": "為底片而做",
-  "footer_privacy": "隱私權政策"
+  "footer_privacy": "隱私權政策",
+  "status_small": "測試中"
 }

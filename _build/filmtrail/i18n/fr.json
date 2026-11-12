@@ -11,12 +11,12 @@
   "h1_a": "Votre boîtier argentique",
   "h1_b": "ne se souvient pas où.",
   "lead": "FilmTrail mesure la lumière et, d'un geste après le déclenchement, note où chaque vue a été prise. Quand les scans reviennent, l'app ajoute ce lieu aux fichiers.",
-  "notify_small": "PRÉVENEZ-MOI",
-  "notify": "Quand ce sera sur Google Play",
+  "notify_small": "PAR E-MAIL",
+  "notify": "Me prévenir au lancement",
   "mail_subject": "FilmTrail : prévenez-moi à la sortie",
   "mail_body": "Bonjour Film Wanderer, merci de m'écrire quand FilmTrail sera sur Google Play.",
-  "soon": "Bientôt disponible",
-  "notify_note": "Ou écrivez-nous quand vous voulez :",
+  "soon": "Bientôt sur Google Play",
+  "notify_note": "Ouvre votre app e-mail. Une seule réponse le jour du lancement, rien d'autre. Ou écrivez à",
   "mascot_alt": "La caille de FilmTrail, une randonneuse qui regarde dans des jumelles vertes, une boussole à la main",
   "features_h": "Une pellicule, quatre étapes",
   "features_count": "04 vues",
@@ -100,7 +100,8 @@
     ]
   ],
   "closing_h": "Chargez la prochaine pellicule.",
-  "closing_p": "FilmTrail est en test. Laissez votre e-mail et nous vous préviendrons de sa sortie sur Google Play.",
+  "closing_p": "FilmTrail est en test. Envoyez-nous un e-mail : nous répondrons une seule fois, le jour où l'app sera sur Google Play.",
   "footer_stamp": "FAIT POUR LE FILM",
-  "footer_privacy": "Politique de confidentialité"
+  "footer_privacy": "Politique de confidentialité",
+  "status_small": "EN TEST"
 }

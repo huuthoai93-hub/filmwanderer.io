@@ -11,12 +11,12 @@
   "h1_a": "フィルムカメラは",
   "h1_b": "撮った場所を覚えていない。",
   "lead": "FilmTrail は光を測り、シャッターを切ったあとワンタップで各コマの撮影場所を記録します。スキャンが届いたら、その位置をファイルに書き込みます。",
-  "notify_small": "お知らせを受け取る",
-  "notify": "Google Play 公開時",
+  "notify_small": "メールで",
+  "notify": "公開を知らせてもらう",
   "mail_subject": "FilmTrail：公開されたら知らせてください",
   "mail_body": "Film Wanderer さん、FilmTrail が Google Play で公開されたらメールで知らせてください。",
-  "soon": "近日公開",
-  "notify_note": "いつでもメールでどうぞ：",
+  "soon": "Google Play で近日公開",
+  "notify_note": "メールアプリが開きます。公開日に一度だけ返信し、それ以外は送りません。宛先：",
   "mascot_alt": "FilmTrail のウズラ。緑の双眼鏡をのぞき、手にコンパスを持つハイカー",
   "features_h": "1本のロール、4つのステップ",
   "features_count": "04 コマ",
@@ -100,7 +100,8 @@
     ]
   ],
   "closing_h": "次のロールを装填しよう。",
-  "closing_p": "FilmTrail はテスト中です。メールを残していただければ、Google Play で公開されたときにお知らせします。",
+  "closing_p": "FilmTrail はテスト中です。メールを一通送っていただければ、Google Play で公開された日に一度だけ返信します。",
   "footer_stamp": "フィルムのために",
-  "footer_privacy": "プライバシーポリシー"
+  "footer_privacy": "プライバシーポリシー",
+  "status_small": "テスト中"
 }

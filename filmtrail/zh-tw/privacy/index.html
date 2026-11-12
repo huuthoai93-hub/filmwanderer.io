@@ -37,7 +37,7 @@
       <a href="#contact">聯絡</a>
     </nav>
     <details class="lang">
-      <summary aria-label="語言">繁中 <span aria-hidden="true">▾</span></summary>
+      <summary><span class="sr-only">語言: </span>繁中 <span aria-hidden="true">▾</span></summary>
       <ul>
         <li><a href="../../privacy/" lang="en" hreflang="en">English</a></li>
         <li><a href="../../de/privacy/" lang="de" hreflang="de">Deutsch</a></li>
@@ -70,9 +70,10 @@
 
   <section class="section" id="policy">
     <div class="wrap policy-grid">
-      <nav class="toc" aria-labelledby="toc-h">
-        <h2 class="toc-h" id="toc-h">目錄</h2>
-        <ol>
+      <nav class="toc" id="toc" aria-labelledby="toc-h">
+        <details class="toc-d" open>
+          <summary><h2 class="toc-h" id="toc-h">目錄</h2></summary>
+          <ol>
           <li><a href="#device"><span>01</span>App 使用什麼、為什麼</a></li>
           <li><a href="#photos"><span>02</span>你的掃描檔</a></li>
           <li><a href="#network"><span>03</span>哪些資料會離開你的手機</a></li>
@@ -81,40 +82,49 @@
           <li><a href="#children"><span>06</span>兒童</a></li>
           <li><a href="#changes"><span>07</span>變更</a></li>
           <li><a href="#contact"><span>08</span>聯絡</a></li>
-        </ol>
+          </ol>
+        </details>
       </nav>
       <div class="clauses">
         <section class="clause" id="device" aria-labelledby="h1">
           <h2 class="head" id="h1"><span class="n">01</span>App 使用什麼、為什麼</h2>
           <p>以下資料都只存放在你手機中 App 的私人儲存空間。</p><ul><li><strong>精確位置（GPS）</strong>：在你記錄一格時取得。僅在 App 開啟時，並於每次記錄後最多約 2 分鐘持續取得以提高精確度；這段期間會顯示通知。FilmTrail 不會在背景追蹤你的位置。</li><li><strong>麥克風</strong>：只在你按住按鈕時，為一格錄下語音備忘。</li><li><strong>相機</strong>：測光時顯示畫面；若你在設定中開啟，會為每一格保留一張小參考照。在沒有光線感測器的手機上，會改用相機測光。</li><li><strong>光線感測器</strong>：用於測光，讀數不會儲存。</li><li><strong>通知</strong>：在取得更精確位置期間顯示的通知。</li></ul>
+          <a class="to-toc" href="#toc">↑ 目錄</a>
         </section>
         <section class="clause" id="photos" aria-labelledby="h2">
           <h2 class="head" id="h2"><span class="n">02</span>你的掃描檔</h2>
           <p>對應時，App 只會開啟你在 Android 檔案選擇器中挑選的圖片，並把 GPS 座標寫入副本的 EXIF。FilmTrail 沒有讀取你相簿的權限，也從不上傳你的圖片。</p>
+          <a class="to-toc" href="#toc">↑ 目錄</a>
         </section>
         <section class="clause" id="network" aria-labelledby="h3">
           <h2 class="head" id="h3"><span class="n">03</span>哪些資料會離開你的手機</h2>
           <ul><li><strong>地圖底圖（可選）。</strong>若你同意開啟地圖底圖，App 會從 <a href="https://openfreemap.org">OpenFreeMap</a> 下載地圖圖片。和任何網站一樣，對方伺服器會收到你的 IP 位址和你正在查看的地圖範圍。不開啟就不會下載任何東西。你的圖釘、底片捲和備忘從不會被傳送。</li><li><strong>開啟定位的對話框。</strong>App 只為了顯示 Android 一鍵「開啟定位」對話框而使用 Google Play 服務。該對話框適用 <a href="https://policies.google.com/privacy">Google 隱私權政策</a>。</li><li><strong>你建立的匯出與備份。</strong>CSV、GPX、KML 匯出檔和 <code>.fltbackup</code> 備份檔會存到你選擇的位置，或分享給你選擇的 App。FilmTrail 從不自行把它們傳到任何地方。</li></ul>
+          <a class="to-toc" href="#toc">↑ 目錄</a>
         </section>
         <section class="clause" id="not" aria-labelledby="h4">
           <h2 class="head" id="h4"><span class="n">04</span>我們不做的事</h2>
           <ul class="nots"><li>我們不販售你的資料，也不與任何人分享。</li><li>沒有廣告、沒有分析，也不會向伺服器回報當機。</li><li>不需登入，也沒有帳號。</li></ul>
+          <a class="to-toc" href="#toc">↑ 目錄</a>
         </section>
         <section class="clause" id="delete" aria-labelledby="h5">
           <h2 class="head" id="h5"><span class="n">05</span>刪除你的資料</h2>
           <p>你可以在 App 的資料設定中刪除單一格、整捲，或用<em>Delete all data</em>全部刪除。解除安裝 App 也會從手機移除它的所有資料。你的原始圖片和匯出的檔案不受影響。App 關閉了 Android 自動備份，因此不會同步到雲端。</p>
+          <a class="to-toc" href="#toc">↑ 目錄</a>
         </section>
         <section class="clause" id="children" aria-labelledby="h6">
           <h2 class="head" id="h6"><span class="n">06</span>兒童</h2>
           <p>FilmTrail 並非以 13 歲以下兒童為對象，也不會在知情的情況下收集他們的資料。我們不在伺服器上收集任何人的資料。</p>
+          <a class="to-toc" href="#toc">↑ 目錄</a>
         </section>
         <section class="clause" id="changes" aria-labelledby="h7">
           <h2 class="head" id="h7"><span class="n">07</span>變更</h2>
           <p>若本政策有所變更，我們會更新本頁及頂部的生效日期。</p>
+          <a class="to-toc" href="#toc">↑ 目錄</a>
         </section>
         <section class="clause" id="contact" aria-labelledby="h8">
           <h2 class="head" id="h8"><span class="n">08</span>聯絡</h2>
-          <p>對隱私有疑問？請寫信給 Film Wanderer：<a href="mailto:filmwanderer.support@gmail.com">filmwanderer.support@gmail.com</a>。</p>
+          <p>對隱私有疑問？請寫信給 Film Wanderer：<a href="mailto:filmwanderer.support@gmail.com">filmwanderer.support@<wbr>gmail.com</a>。</p>
+          <a class="to-toc" href="#toc">↑ 目錄</a>
         </section>
       </div>
     </div>
@@ -147,17 +157,28 @@
   });
 })();
 
-// (FilmTrail has no screenshots yet, so the "develop" effect has nothing to act on.)
+// Policy contents: on phones the list starts closed; on wide screens it is always open and marks the clause being read.
 (function () {
-  var shots = document.querySelectorAll(".shot");
-  var develop = function (el) { el.classList.add("dev"); };
-  if (!("IntersectionObserver" in window)) { shots.forEach(develop); return; }
+  var toc = document.querySelector(".toc-d");
+  if (!toc) return;
+  var wide = window.matchMedia("(min-width: 821px)");
+  var sync = function () { toc.open = wide.matches; };
+  sync();
+  if (wide.addEventListener) wide.addEventListener("change", sync);
+  toc.querySelector("summary").addEventListener("click", function (e) { if (wide.matches) e.preventDefault(); });
+  document.querySelectorAll('.to-toc').forEach(function (a) { a.addEventListener("click", function () { if (!wide.matches) toc.open = true; }); });
+  if (!("IntersectionObserver" in window)) return;
+  var links = {};
+  toc.querySelectorAll("a[href^='#']").forEach(function (a) { links[a.getAttribute("href").slice(1)] = a; });
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
-      if (e.isIntersecting) { develop(e.target); io.unobserve(e.target); }
+      if (!e.isIntersecting) return;
+      Object.keys(links).forEach(function (id) { links[id].removeAttribute("aria-current"); });
+      var a = links[e.target.id];
+      if (a) a.setAttribute("aria-current", "location");
     });
-  }, { threshold: 0.45 });
-  shots.forEach(function (el) { io.observe(el); });
+  }, { rootMargin: "-20% 0px -70% 0px" });
+  document.querySelectorAll(".clause[id]").forEach(function (el) { io.observe(el); });
 })();
 
 // Film advance: the sprocket rails creep while the strip is on screen, like film pulled through a camera.
