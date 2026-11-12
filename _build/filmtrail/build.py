@@ -68,10 +68,10 @@ def frames_html(frames):
     for i, f in enumerate(frames, 1):
         items = "\n".join(f"              <li>{esc(x)}</li>" for x in f["l"])
         out.append(f"""        <article class="frame text">
-          <span class="edge">FILMTRAIL 400 ▸ {i}</span>
+          <span class="edge" aria-hidden="true">FILMTRAIL 400 ▸ {i}</span>
           <span class="big-no" aria-hidden="true">{i:02d}</span>
           <div>
-            <span class="no">{i:02d} ▸ {i:02d}A</span>
+            <span class="no" aria-hidden="true">{i:02d} ▸ {i:02d}A</span>
             <h3>{esc(f["t"])}</h3>
             <p>{esc(f["p"])}</p>
             <ul>
@@ -95,7 +95,7 @@ for code, folder, tag, short, _ in LANGS:
             f"<div><b>{esc(b)}</b><span>{esc(s)}</span></div></div>"
             for i, (b, s) in enumerate(text["points"], 1)),
         faqs="\n".join(f"      <details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in text["faqs"]),
-        mail_href=mailto(text["mail_subject"], text["mail_body"]), email=EMAIL, code=code, html_lang=tag,
+        mail_href=mailto(text["mail_subject"], text["mail_body"]), email=EMAIL, email_wbr=EMAIL.replace("@", "@<wbr>"), code=code, html_lang=tag,
         url=BASE + folder, base=BASE, root=root, hreflangs=alternates(""), langmenu=lang_menu(folder, root, ""),
         lang_short=short, script=SCRIPT)
     render(template, values, code, OUT / folder / "index.html")
@@ -117,7 +117,8 @@ for code, folder, tag, short, _ in LANGS:
         clauses="\n".join(
             f'        <section class="clause" id="{s["id"]}" aria-labelledby="h{i}">\n'
             f'          <h2 class="head" id="h{i}"><span class="n">{i:02d}</span>{esc(s["h"])}</h2>\n'
-            f'          {s["html"].replace("{{email}}", EMAIL)}\n        </section>'
+            f'          {s["html"].replace(">{{email}}<", ">" + EMAIL.replace("@", "@<wbr>") + "<").replace("{{email}}", EMAIL)}\n'
+            f'          <a class="to-toc" href="#toc">↑ {esc(text["toc_h"])}</a>\n        </section>'
             for i, s in enumerate(secs, 1)),
         translation_note=note, email=EMAIL, code=code, html_lang=tag, updated_iso="2026-11-12",
         url=BASE + folder + "privacy/", base=BASE, root=root, hreflangs=alternates("privacy/"),

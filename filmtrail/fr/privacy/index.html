@@ -37,7 +37,7 @@
       <a href="#contact">Contact</a>
     </nav>
     <details class="lang">
-      <summary aria-label="Langue">FR <span aria-hidden="true">▾</span></summary>
+      <summary><span class="sr-only">Langue: </span>FR <span aria-hidden="true">▾</span></summary>
       <ul>
         <li><a href="../../privacy/" lang="en" hreflang="en">English</a></li>
         <li><a href="../../de/privacy/" lang="de" hreflang="de">Deutsch</a></li>
@@ -70,9 +70,10 @@
 
   <section class="section" id="policy">
     <div class="wrap policy-grid">
-      <nav class="toc" aria-labelledby="toc-h">
-        <h2 class="toc-h" id="toc-h">Sommaire</h2>
-        <ol>
+      <nav class="toc" id="toc" aria-labelledby="toc-h">
+        <details class="toc-d" open>
+          <summary><h2 class="toc-h" id="toc-h">Sommaire</h2></summary>
+          <ol>
           <li><a href="#device"><span>01</span>Ce que l&#x27;app utilise et pourquoi</a></li>
           <li><a href="#photos"><span>02</span>Vos scans</a></li>
           <li><a href="#network"><span>03</span>Ce qui quitte votre téléphone</a></li>
@@ -81,40 +82,49 @@
           <li><a href="#children"><span>06</span>Enfants</a></li>
           <li><a href="#changes"><span>07</span>Modifications</a></li>
           <li><a href="#contact"><span>08</span>Contact</a></li>
-        </ol>
+          </ol>
+        </details>
       </nav>
       <div class="clauses">
         <section class="clause" id="device" aria-labelledby="h1">
           <h2 class="head" id="h1"><span class="n">01</span>Ce que l&#x27;app utilise et pourquoi</h2>
           <p>Tout ce qui suit est stocké uniquement sur votre téléphone, dans l'espace privé de l'app.</p><ul><li><strong>Position précise (GPS)</strong> : enregistrée quand vous notez une vue. Seulement quand l'app est ouverte, et jusqu'à environ 2 minutes après chaque note pour obtenir une position plus précise ; une notification s'affiche pendant ce temps. FilmTrail ne suit pas votre position en arrière-plan.</li><li><strong>Micro</strong> : enregistre une note vocale pour une vue, seulement tant que vous maintenez le bouton.</li><li><strong>Appareil photo</strong> : affiche la scène pendant la mesure et, si vous l'activez dans les réglages, garde une petite photo de référence pour chaque vue. Sur les téléphones sans capteur de lumière, l'appareil photo sert à la mesure.</li><li><strong>Capteur de lumière</strong> : mesure de la lumière. Les valeurs ne sont pas enregistrées.</li><li><strong>Notifications</strong> : la notification affichée pendant l'obtention d'une position plus précise.</li></ul>
+          <a class="to-toc" href="#toc">↑ Sommaire</a>
         </section>
         <section class="clause" id="photos" aria-labelledby="h2">
           <h2 class="head" id="h2"><span class="n">02</span>Vos scans</h2>
           <p>Lors de l'association, l'app ouvre uniquement les images que vous choisissez dans le sélecteur de fichiers d'Android et écrit les coordonnées GPS dans l'EXIF d'une copie. FilmTrail n'a pas l'autorisation de lire votre photothèque et n'envoie jamais vos images.</p>
+          <a class="to-toc" href="#toc">↑ Sommaire</a>
         </section>
         <section class="clause" id="network" aria-labelledby="h3">
           <h2 class="head" id="h3"><span class="n">03</span>Ce qui quitte votre téléphone</h2>
           <ul><li><strong>Fond de carte (facultatif).</strong> Si vous acceptez d'activer le fond de carte, l'app télécharge des images de carte depuis <a href="https://openfreemap.org">OpenFreeMap</a>. Comme pour tout site web, leurs serveurs reçoivent votre adresse IP et la zone affichée. Si vous ne l'activez pas, rien n'est téléchargé. Vos repères, pellicules et notes ne sont jamais envoyés.</li><li><strong>Boîte de dialogue d'activation de la localisation.</strong> L'app utilise les services Google Play uniquement pour afficher la boîte de dialogue Android « activer la localisation » en un geste. Cette boîte de dialogue relève des <a href="https://policies.google.com/privacy">règles de confidentialité de Google</a>.</li><li><strong>Exports et sauvegardes que vous créez.</strong> Les exports CSV, GPX et KML et les fichiers de sauvegarde <code>.fltbackup</code> sont enregistrés où vous voulez ou partagés vers l'app de votre choix. FilmTrail ne les envoie jamais nulle part de lui-même.</li></ul>
+          <a class="to-toc" href="#toc">↑ Sommaire</a>
         </section>
         <section class="clause" id="not" aria-labelledby="h4">
           <h2 class="head" id="h4"><span class="n">04</span>Ce que nous ne faisons pas</h2>
           <ul class="nots"><li>Nous ne vendons ni ne partageons vos données avec qui que ce soit.</li><li>Pas de pub, pas de statistiques, pas de rapports de plantage vers un serveur.</li><li>Pas de connexion et pas de compte.</li></ul>
+          <a class="to-toc" href="#toc">↑ Sommaire</a>
         </section>
         <section class="clause" id="delete" aria-labelledby="h5">
           <h2 class="head" id="h5"><span class="n">05</span>Supprimer vos données</h2>
           <p>Supprimez une vue, une pellicule entière ou tout avec <em>Delete all data</em> dans les réglages Données de l'app. Désinstaller l'app efface aussi toutes ses données du téléphone. Vos images originales et les fichiers exportés ne sont pas touchés. L'app désactive la sauvegarde automatique d'Android : rien n'est synchronisé dans le cloud.</p>
+          <a class="to-toc" href="#toc">↑ Sommaire</a>
         </section>
         <section class="clause" id="children" aria-labelledby="h6">
           <h2 class="head" id="h6"><span class="n">06</span>Enfants</h2>
           <p>FilmTrail ne s'adresse pas aux enfants de moins de 13 ans et ne collecte sciemment aucune donnée les concernant. L'app ne collecte de données sur un serveur auprès de personne.</p>
+          <a class="to-toc" href="#toc">↑ Sommaire</a>
         </section>
         <section class="clause" id="changes" aria-labelledby="h7">
           <h2 class="head" id="h7"><span class="n">07</span>Modifications</h2>
           <p>Si cette politique change, nous mettrons à jour cette page et la date en haut.</p>
+          <a class="to-toc" href="#toc">↑ Sommaire</a>
         </section>
         <section class="clause" id="contact" aria-labelledby="h8">
           <h2 class="head" id="h8"><span class="n">08</span>Contact</h2>
-          <p>Une question sur la confidentialité ? Écrivez à Film Wanderer à <a href="mailto:filmwanderer.support@gmail.com">filmwanderer.support@gmail.com</a>.</p>
+          <p>Une question sur la confidentialité ? Écrivez à Film Wanderer à <a href="mailto:filmwanderer.support@gmail.com">filmwanderer.support@<wbr>gmail.com</a>.</p>
+          <a class="to-toc" href="#toc">↑ Sommaire</a>
         </section>
       </div>
     </div>
@@ -147,17 +157,28 @@
   });
 })();
 
-// (FilmTrail has no screenshots yet, so the "develop" effect has nothing to act on.)
+// Policy contents: on phones the list starts closed; on wide screens it is always open and marks the clause being read.
 (function () {
-  var shots = document.querySelectorAll(".shot");
-  var develop = function (el) { el.classList.add("dev"); };
-  if (!("IntersectionObserver" in window)) { shots.forEach(develop); return; }
+  var toc = document.querySelector(".toc-d");
+  if (!toc) return;
+  var wide = window.matchMedia("(min-width: 821px)");
+  var sync = function () { toc.open = wide.matches; };
+  sync();
+  if (wide.addEventListener) wide.addEventListener("change", sync);
+  toc.querySelector("summary").addEventListener("click", function (e) { if (wide.matches) e.preventDefault(); });
+  document.querySelectorAll('.to-toc').forEach(function (a) { a.addEventListener("click", function () { if (!wide.matches) toc.open = true; }); });
+  if (!("IntersectionObserver" in window)) return;
+  var links = {};
+  toc.querySelectorAll("a[href^='#']").forEach(function (a) { links[a.getAttribute("href").slice(1)] = a; });
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
-      if (e.isIntersecting) { develop(e.target); io.unobserve(e.target); }
+      if (!e.isIntersecting) return;
+      Object.keys(links).forEach(function (id) { links[id].removeAttribute("aria-current"); });
+      var a = links[e.target.id];
+      if (a) a.setAttribute("aria-current", "location");
     });
-  }, { threshold: 0.45 });
-  shots.forEach(function (el) { io.observe(el); });
+  }, { rootMargin: "-20% 0px -70% 0px" });
+  document.querySelectorAll(".clause[id]").forEach(function (el) { io.observe(el); });
 })();
 
 // Film advance: the sprocket rails creep while the strip is on screen, like film pulled through a camera.

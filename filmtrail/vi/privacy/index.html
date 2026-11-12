@@ -37,7 +37,7 @@
       <a href="#contact">Liên hệ</a>
     </nav>
     <details class="lang">
-      <summary aria-label="Ngôn ngữ">VI <span aria-hidden="true">▾</span></summary>
+      <summary><span class="sr-only">Ngôn ngữ: </span>VI <span aria-hidden="true">▾</span></summary>
       <ul>
         <li><a href="../../privacy/" lang="en" hreflang="en">English</a></li>
         <li><a href="../../de/privacy/" lang="de" hreflang="de">Deutsch</a></li>
@@ -70,9 +70,10 @@
 
   <section class="section" id="policy">
     <div class="wrap policy-grid">
-      <nav class="toc" aria-labelledby="toc-h">
-        <h2 class="toc-h" id="toc-h">Nội dung</h2>
-        <ol>
+      <nav class="toc" id="toc" aria-labelledby="toc-h">
+        <details class="toc-d" open>
+          <summary><h2 class="toc-h" id="toc-h">Nội dung</h2></summary>
+          <ol>
           <li><a href="#device"><span>01</span>App dùng gì và để làm gì</a></li>
           <li><a href="#photos"><span>02</span>Ảnh scan của bạn</a></li>
           <li><a href="#network"><span>03</span>Dữ liệu rời khỏi điện thoại</a></li>
@@ -81,40 +82,49 @@
           <li><a href="#children"><span>06</span>Trẻ em</a></li>
           <li><a href="#changes"><span>07</span>Thay đổi</a></li>
           <li><a href="#contact"><span>08</span>Liên hệ</a></li>
-        </ol>
+          </ol>
+        </details>
       </nav>
       <div class="clauses">
         <section class="clause" id="device" aria-labelledby="h1">
           <h2 class="head" id="h1"><span class="n">01</span>App dùng gì và để làm gì</h2>
           <p>Mọi thứ dưới đây chỉ được lưu trên điện thoại của bạn, trong bộ nhớ riêng của app.</p><ul><li><strong>Vị trí chính xác (GPS)</strong>: ghi lại khi bạn log một khung. Chỉ khi app đang mở, và tối đa khoảng 2 phút sau mỗi lần log để có toạ độ chính xác hơn; trong lúc đó có một thông báo hiển thị. FilmTrail không theo dõi vị trí khi chạy nền.</li><li><strong>Micro</strong>: ghi âm ghi chú cho một khung, chỉ khi bạn giữ nút.</li><li><strong>Camera</strong>: hiện khung cảnh khi đo sáng và, nếu bạn bật trong Cài đặt, lưu một ảnh nhắc nhỏ cho mỗi khung. Trên máy không có cảm biến ánh sáng, camera được dùng để đo sáng.</li><li><strong>Cảm biến ánh sáng</strong>: đo sáng. Kết quả đo không được lưu.</li><li><strong>Thông báo</strong>: thông báo hiển thị trong lúc đang lấy vị trí chính xác hơn.</li></ul>
+          <a class="to-toc" href="#toc">↑ Nội dung</a>
         </section>
         <section class="clause" id="photos" aria-labelledby="h2">
           <h2 class="head" id="h2"><span class="n">02</span>Ảnh scan của bạn</h2>
           <p>Khi bạn ghép khung, app chỉ mở các ảnh bạn chọn trong trình chọn file của Android và ghi toạ độ GPS vào EXIF của một bản sao. FilmTrail không có quyền đọc thư viện ảnh và không bao giờ tải ảnh của bạn lên.</p>
+          <a class="to-toc" href="#toc">↑ Nội dung</a>
         </section>
         <section class="clause" id="network" aria-labelledby="h3">
           <h2 class="head" id="h3"><span class="n">03</span>Dữ liệu rời khỏi điện thoại</h2>
           <ul><li><strong>Nền bản đồ (tuỳ chọn).</strong> Khi bạn đồng ý bật nền bản đồ, app tải ảnh bản đồ từ <a href="https://openfreemap.org">OpenFreeMap</a>. Như mọi trang web, máy chủ của họ nhận được địa chỉ IP của bạn và vùng bản đồ bạn đang xem. Nếu không bật, app không tải gì. Ghim, cuộn phim và ghi chú của bạn không bao giờ bị gửi đi.</li><li><strong>Hộp thoại bật vị trí.</strong> App dùng Google Play services chỉ để hiện hộp thoại "Bật vị trí" một chạm của Android. Hộp thoại này tuân theo <a href="https://policies.google.com/privacy">chính sách quyền riêng tư của Google</a>.</li><li><strong>File xuất và sao lưu do bạn tạo.</strong> File CSV, GPX, KML và file sao lưu <code>.fltbackup</code> được lưu vào nơi bạn chọn hoặc chia sẻ tới app bạn chọn. FilmTrail không tự gửi chúng đi đâu.</li></ul>
+          <a class="to-toc" href="#toc">↑ Nội dung</a>
         </section>
         <section class="clause" id="not" aria-labelledby="h4">
           <h2 class="head" id="h4"><span class="n">04</span>Chúng tôi không làm</h2>
           <ul class="nots"><li>Không bán, không chia sẻ dữ liệu của bạn với bất kỳ ai.</li><li>Không quảng cáo, không analytics, không gửi báo lỗi về máy chủ.</li><li>Không đăng nhập, không tài khoản.</li></ul>
+          <a class="to-toc" href="#toc">↑ Nội dung</a>
         </section>
         <section class="clause" id="delete" aria-labelledby="h5">
           <h2 class="head" id="h5"><span class="n">05</span>Xoá dữ liệu</h2>
           <p>Xoá từng khung, từng cuộn, hoặc toàn bộ bằng <em>Xóa toàn bộ dữ liệu</em> trong phần Dữ liệu của app. Gỡ cài đặt app cũng xoá mọi dữ liệu của app trên máy. Ảnh gốc và file bạn đã xuất không bị động tới. App tắt sao lưu tự động của Android, nên không có gì được đồng bộ lên đám mây.</p>
+          <a class="to-toc" href="#toc">↑ Nội dung</a>
         </section>
         <section class="clause" id="children" aria-labelledby="h6">
           <h2 class="head" id="h6"><span class="n">06</span>Trẻ em</h2>
           <p>FilmTrail không hướng tới trẻ em dưới 13 tuổi và không chủ động thu thập dữ liệu nào của trẻ em. App không thu thập dữ liệu của bất kỳ ai về máy chủ.</p>
+          <a class="to-toc" href="#toc">↑ Nội dung</a>
         </section>
         <section class="clause" id="changes" aria-labelledby="h7">
           <h2 class="head" id="h7"><span class="n">07</span>Thay đổi</h2>
           <p>Nếu chính sách thay đổi, chúng tôi sẽ cập nhật trang này và ngày hiệu lực ở đầu trang.</p>
+          <a class="to-toc" href="#toc">↑ Nội dung</a>
         </section>
         <section class="clause" id="contact" aria-labelledby="h8">
           <h2 class="head" id="h8"><span class="n">08</span>Liên hệ</h2>
-          <p>Có câu hỏi về quyền riêng tư? Hãy viết cho Film Wanderer qua <a href="mailto:filmwanderer.support@gmail.com">filmwanderer.support@gmail.com</a>.</p>
+          <p>Có câu hỏi về quyền riêng tư? Hãy viết cho Film Wanderer qua <a href="mailto:filmwanderer.support@gmail.com">filmwanderer.support@<wbr>gmail.com</a>.</p>
+          <a class="to-toc" href="#toc">↑ Nội dung</a>
         </section>
       </div>
     </div>
@@ -147,17 +157,28 @@
   });
 })();
 
-// (FilmTrail has no screenshots yet, so the "develop" effect has nothing to act on.)
+// Policy contents: on phones the list starts closed; on wide screens it is always open and marks the clause being read.
 (function () {
-  var shots = document.querySelectorAll(".shot");
-  var develop = function (el) { el.classList.add("dev"); };
-  if (!("IntersectionObserver" in window)) { shots.forEach(develop); return; }
+  var toc = document.querySelector(".toc-d");
+  if (!toc) return;
+  var wide = window.matchMedia("(min-width: 821px)");
+  var sync = function () { toc.open = wide.matches; };
+  sync();
+  if (wide.addEventListener) wide.addEventListener("change", sync);
+  toc.querySelector("summary").addEventListener("click", function (e) { if (wide.matches) e.preventDefault(); });
+  document.querySelectorAll('.to-toc').forEach(function (a) { a.addEventListener("click", function () { if (!wide.matches) toc.open = true; }); });
+  if (!("IntersectionObserver" in window)) return;
+  var links = {};
+  toc.querySelectorAll("a[href^='#']").forEach(function (a) { links[a.getAttribute("href").slice(1)] = a; });
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
-      if (e.isIntersecting) { develop(e.target); io.unobserve(e.target); }
+      if (!e.isIntersecting) return;
+      Object.keys(links).forEach(function (id) { links[id].removeAttribute("aria-current"); });
+      var a = links[e.target.id];
+      if (a) a.setAttribute("aria-current", "location");
     });
-  }, { threshold: 0.45 });
-  shots.forEach(function (el) { io.observe(el); });
+  }, { rootMargin: "-20% 0px -70% 0px" });
+  document.querySelectorAll(".clause[id]").forEach(function (el) { io.observe(el); });
 })();
 
 // Film advance: the sprocket rails creep while the strip is on screen, like film pulled through a camera.

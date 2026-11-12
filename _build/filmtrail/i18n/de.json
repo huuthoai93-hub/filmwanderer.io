@@ -11,12 +11,12 @@
   "h1_a": "Deine Filmkamera",
   "h1_b": "weiß nicht, wo.",
   "lead": "FilmTrail misst das Licht und hält mit einem Tipp nach dem Auslösen fest, wo jedes Bild entstand. Wenn die Scans zurück sind, schreibt die App diesen Ort in die Dateien.",
-  "notify_small": "SAG MIR BESCHEID",
-  "notify": "Wenn es bei Google Play ist",
+  "notify_small": "PER E-MAIL",
+  "notify": "Zum Start benachrichtigen",
   "mail_subject": "FilmTrail: Bescheid geben, wenn es da ist",
   "mail_body": "Hallo Film Wanderer, bitte schreibt mir, wenn FilmTrail bei Google Play ist.",
-  "soon": "Bald verfügbar",
-  "notify_note": "Oder schreib uns jederzeit:",
+  "soon": "Bald bei Google Play",
+  "notify_note": "Öffnet deine E-Mail-App. Eine Antwort am Starttag, sonst nichts. Oder schreib an",
   "mascot_alt": "Die FilmTrail-Wachtel, eine Wanderin mit grünem Fernglas und Kompass in der Hand",
   "features_h": "Ein Film, vier Schritte",
   "features_count": "04 Bilder",
@@ -100,7 +100,8 @@
     ]
   ],
   "closing_h": "Leg den nächsten Film ein.",
-  "closing_p": "FilmTrail ist im Test. Hinterlass deine E-Mail und wir sagen dir Bescheid, wenn es bei Google Play ist.",
+  "closing_p": "FilmTrail ist im Test. Schick uns eine E-Mail, und wir antworten einmal, an dem Tag, an dem es bei Google Play ist.",
   "footer_stamp": "FÜR FILM GEMACHT",
-  "footer_privacy": "Datenschutzerklärung"
+  "footer_privacy": "Datenschutzerklärung",
+  "status_small": "IM TEST"
 }

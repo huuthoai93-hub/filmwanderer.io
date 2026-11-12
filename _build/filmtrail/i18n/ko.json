@@ -11,12 +11,12 @@
   "h1_a": "필름 카메라는",
   "h1_b": "어디서 찍었는지 모릅니다.",
   "lead": "FilmTrail은 빛을 재고, 셔터를 누른 뒤 한 번 탭하면 컷마다 찍은 장소를 기록합니다. 스캔이 돌아오면 그 위치를 파일에 넣어 줍니다.",
-  "notify_small": "알림 받기",
-  "notify": "Google Play에 나오면",
+  "notify_small": "이메일로",
+  "notify": "출시 알림 받기",
   "mail_subject": "FilmTrail: 출시되면 알려 주세요",
   "mail_body": "Film Wanderer님, FilmTrail이 Google Play에 나오면 이메일로 알려 주세요.",
-  "soon": "곧 출시",
-  "notify_note": "언제든 메일 주세요:",
+  "soon": "곧 Google Play 출시",
+  "notify_note": "이메일 앱이 열립니다. 출시일에 답장 한 번, 그 외에는 보내지 않습니다. 직접 보내기:",
   "mascot_alt": "FilmTrail 메추라기. 녹색 쌍안경을 들여다보며 나침반을 든 하이커",
   "features_h": "롤 하나, 네 단계",
   "features_count": "04 컷",
@@ -100,7 +100,8 @@
     ]
   ],
   "closing_h": "다음 롤을 넣으세요.",
-  "closing_p": "FilmTrail은 테스트 중입니다. 이메일을 남기시면 Google Play에 출시될 때 알려 드릴게요.",
+  "closing_p": "FilmTrail은 테스트 중입니다. 이메일을 한 통 보내 주시면 Google Play에 출시되는 날 한 번만 답장합니다.",
   "footer_stamp": "필름을 위해 만듦",
-  "footer_privacy": "개인정보처리방침"
+  "footer_privacy": "개인정보처리방침",
+  "status_small": "테스트 중"
 }

@@ -11,40 +11,97 @@
   "h1_a": "Máy film không nhớ",
   "h1_b": "bạn đã chụp ở đâu.",
   "lead": "FilmTrail đo sáng và, chỉ với một chạm sau khi bấm máy, ghi lại nơi chụp từng khung. Khi có file scan, app đưa vị trí đó vào ảnh.",
-  "notify_small": "BÁO CHO TÔI KHI",
-  "notify": "Có trên Google Play",
+  "notify_small": "QUA EMAIL",
+  "notify": "Báo tôi khi ra mắt",
   "mail_subject": "FilmTrail: báo tôi khi phát hành",
   "mail_body": "Chào Film Wanderer, hãy email cho tôi khi FilmTrail có trên Google Play.",
-  "soon": "Sắp ra mắt",
-  "notify_note": "Hoặc viết cho chúng tôi bất cứ lúc nào:",
+  "soon": "Sắp có trên Google Play",
+  "notify_note": "Mở ứng dụng email trên máy. Chỉ một thư trả lời vào ngày ra mắt, không gửi gì khác. Hoặc viết tới",
   "mascot_alt": "Chim cút FilmTrail đeo ba lô, nhìn qua ống nhòm xanh, tay cầm la bàn",
   "features_h": "Một cuộn phim, bốn bước",
   "features_count": "04 khung",
   "frames": [
-    {"t": "Đo sáng", "p": "Dùng cảm biến ánh sáng của điện thoại, giống máy đo sáng tới đo ánh sáng chiếu lên chủ thể.", "l": ["Ưu tiên khẩu hoặc ưu tiên tốc, bù sáng EV", "Chọn ISO theo phim", "Hiệu chỉnh riêng cho từng điện thoại theo máy đo bạn tin"]},
-    {"t": "Ghi từng khung", "p": "Chạm một lần ngay sau khi bấm máy. FilmTrail lưu giờ, toạ độ GPS và thông số phơi sáng bạn đã dùng.", "l": ["Giữ để ghi âm ghi chú", "Ảnh nhắc nhỏ của cảnh (tuỳ chọn)", "Ô Cài đặt nhanh và widget màn hình chính"]},
-    {"t": "Ghép với file scan", "p": "Chọn từng file scan cho từng khung, có ghi âm và ảnh nhắc để nhận ra khung nào là ảnh nào.", "l": ["Ghi GPS vào EXIF của một bản sao", "Không nén lại điểm ảnh", "JPEG và PNG"]},
-    {"t": "Xem lại hành trình", "p": "Mọi khung trên bản đồ kèm ảnh nhỏ, và log ở các định dạng app khác đọc được.", "l": ["Ghim bản đồ có ảnh nhỏ", "CSV, GPX (Organic Maps, OsmAnd) và KML (Google Earth)", "File sao lưu để chuyển sang máy mới"]}
+    {
+      "t": "Đo sáng",
+      "p": "Dùng cảm biến ánh sáng của điện thoại, giống máy đo sáng tới đo ánh sáng chiếu lên chủ thể.",
+      "l": [
+        "Ưu tiên khẩu hoặc ưu tiên tốc, bù sáng EV",
+        "Chọn ISO theo phim",
+        "Hiệu chỉnh riêng cho từng điện thoại theo máy đo bạn tin"
+      ]
+    },
+    {
+      "t": "Ghi từng khung",
+      "p": "Chạm một lần ngay sau khi bấm máy. FilmTrail lưu giờ, toạ độ GPS và thông số phơi sáng bạn đã dùng.",
+      "l": [
+        "Giữ để ghi âm ghi chú",
+        "Ảnh nhắc nhỏ của cảnh (tuỳ chọn)",
+        "Ô Cài đặt nhanh và widget màn hình chính"
+      ]
+    },
+    {
+      "t": "Ghép với file scan",
+      "p": "Chọn từng file scan cho từng khung, có ghi âm và ảnh nhắc để nhận ra khung nào là ảnh nào.",
+      "l": [
+        "Ghi GPS vào EXIF của một bản sao",
+        "Không nén lại điểm ảnh",
+        "JPEG và PNG"
+      ]
+    },
+    {
+      "t": "Xem lại hành trình",
+      "p": "Mọi khung trên bản đồ kèm ảnh nhỏ, và log ở các định dạng app khác đọc được.",
+      "l": [
+        "Ghim bản đồ có ảnh nhỏ",
+        "CSV, GPX (Organic Maps, OsmAnd) và KML (Google Earth)",
+        "File sao lưu để chuyển sang máy mới"
+      ]
+    }
   ],
   "v_tag": "Quyền riêng tư",
   "v_h": "Hành trình của bạn là của bạn.",
   "v_p": "Không tài khoản, không quảng cáo, không analytics. Cuộn, khung, vị trí và ghi âm chỉ lưu trên điện thoại của bạn.",
   "v_link": "Đọc chính sách quyền riêng tư",
   "points": [
-    ["Trên điện thoại", "Không có gì được tải lên máy chủ của chúng tôi. Chúng tôi không có máy chủ nào cả."],
-    ["Bạn chọn chia sẻ gì", "File xuất và file sao lưu chỉ đi tới nơi bạn gửi."],
-    ["Bản đồ là tuỳ chọn", "Nền bản đồ chỉ tải từ OpenFreeMap sau khi bạn đồng ý."],
-    ["Xoá bất cứ lúc nào", "Xoá một khung, một cuộn, hoặc toàn bộ trong Cài đặt."]
+    [
+      "Trên điện thoại",
+      "Không có gì được tải lên máy chủ của chúng tôi. Chúng tôi không có máy chủ nào cả."
+    ],
+    [
+      "Bạn chọn chia sẻ gì",
+      "File xuất và file sao lưu chỉ đi tới nơi bạn gửi."
+    ],
+    [
+      "Bản đồ là tuỳ chọn",
+      "Nền bản đồ chỉ tải từ OpenFreeMap sau khi bạn đồng ý."
+    ],
+    [
+      "Xoá bất cứ lúc nào",
+      "Xoá một khung, một cuộn, hoặc toàn bộ trong Cài đặt."
+    ]
   ],
   "faq_h": "Hỏi đáp",
   "faqs": [
-    ["Có miễn phí không?", "Có. FilmTrail miễn phí, không quảng cáo, không mua trong ứng dụng."],
-    ["Dùng được khi không có mạng không?", "Được. Đo sáng, ghi khung và ghép ảnh đều chạy không cần mạng. Chỉ nền bản đồ cần internet, và bạn có thể không bật."],
-    ["Dùng với máy ảnh nào?", "Mọi máy film, 35mm hay medium format. FilmTrail không kết nối với máy ảnh; bạn chạm vào điện thoại sau mỗi lần bấm máy."],
-    ["Có bản cho iPhone không?", "Hiện chưa. FilmTrail chỉ có trên Android (Android 8.0 trở lên)."]
+    [
+      "Có miễn phí không?",
+      "Có. FilmTrail miễn phí, không quảng cáo, không mua trong ứng dụng."
+    ],
+    [
+      "Dùng được khi không có mạng không?",
+      "Được. Đo sáng, ghi khung và ghép ảnh đều chạy không cần mạng. Chỉ nền bản đồ cần internet, và bạn có thể không bật."
+    ],
+    [
+      "Dùng với máy ảnh nào?",
+      "Mọi máy film, 35mm hay medium format. FilmTrail không kết nối với máy ảnh; bạn chạm vào điện thoại sau mỗi lần bấm máy."
+    ],
+    [
+      "Có bản cho iPhone không?",
+      "Hiện chưa. FilmTrail chỉ có trên Android (Android 8.0 trở lên)."
+    ]
   ],
   "closing_h": "Lắp cuộn tiếp theo.",
-  "closing_p": "FilmTrail đang trong giai đoạn thử nghiệm. Để lại email, chúng tôi sẽ báo khi app có trên Google Play.",
+  "closing_p": "FilmTrail đang thử nghiệm. Gửi chúng tôi một email, chúng tôi sẽ trả lời một lần vào ngày app có trên Google Play.",
   "footer_stamp": "LÀM CHO PHIM",
-  "footer_privacy": "Chính sách quyền riêng tư"
+  "footer_privacy": "Chính sách quyền riêng tư",
+  "status_small": "ĐANG THỬ NGHIỆM"
 }

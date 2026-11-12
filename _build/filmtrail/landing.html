@@ -33,7 +33,7 @@
       <a href="#faq">{{nav_faq}}</a>
     </nav>
     <details class="lang">
-      <summary aria-label="{{lang_label}}">{{lang_short}} <span aria-hidden="true">▾</span></summary>
+      <summary><span class="sr-only">{{lang_label}}: </span>{{lang_short}} <span aria-hidden="true">▾</span></summary>
       <ul>
 {{langmenu}}
       </ul>
@@ -55,10 +55,10 @@
           </a>
           <span class="soon" role="note">
             <span class="play" aria-hidden="true"></span>
-            <span><small>GOOGLE PLAY</small><span class="big">{{soon}}</span></span>
+            <span><small>{{status_small}}</small><span class="big">{{soon}}</span></span>
           </span>
         </div>
-        <p class="cta-note">{{notify_note}} <a href="mailto:{{email}}">{{email}}</a></p>
+        <p class="cta-note">{{notify_note}} <a href="mailto:{{email}}">{{email_wbr}}</a></p>
       </div>
       <div class="mascot"><img src="{{root}}assets/mascot.webp" width="640" height="559" alt="{{mascot_alt}}"></div>
     </div>
@@ -110,6 +110,7 @@
           <span class="mail" aria-hidden="true">✉</span>
           <span><small>{{notify_small}}</small><span class="big">{{notify}}</span></span>
         </a>
+        <p class="cta-note">{{notify_note}} <a href="mailto:{{email}}">{{email_wbr}}</a></p>
       </div>
     </div>
   </section>
