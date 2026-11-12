@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the Film Wanderer home page (index.html, vi/index.html). Run from the repository root."""
+"""Build the Film Wanderer home page (index.html plus one folder per language). Run from the repository root."""
 import html, json, pathlib, re
 
 BUILD = pathlib.Path(__file__).resolve().parent
@@ -7,7 +7,15 @@ REPO = BUILD.parent.parent
 SITE = json.loads((REPO / "_build" / "site.json").read_text(encoding="utf-8"))
 BASE = SITE["base"]
 # code, folder, hreflang, short label, native name, FilmDesk folder, FilmTrail folder
-LANGS = [("en", "", "en", "EN", "English", "", ""), ("vi", "vi/", "vi", "VI", "Tiếng Việt", "vi/", "vi/")]
+LANGS = [
+    ("en", "", "en", "EN", "English", "", ""),
+    ("de", "de/", "de", "DE", "Deutsch", "de/", "de/"),
+    ("fr", "fr/", "fr", "FR", "Français", "fr/", "fr/"),
+    ("zh-TW", "zh-tw/", "zh-TW", "繁中", "繁體中文", "zh-tw/", "zh-tw/"),
+    ("ja", "ja/", "ja", "日本語", "日本語", "ja/", "ja/"),
+    ("ko", "ko/", "ko", "한국어", "한국어", "ko/", "ko/"),
+    ("vi", "vi/", "vi", "VI", "Tiếng Việt", "vi/", "vi/"),
+]
 text_all = json.loads((BUILD / "i18n.json").read_text(encoding="utf-8"))
 template = (BUILD / "home.html").read_text(encoding="utf-8")
 for code, folder, tag, short, _, fd, ft in LANGS:

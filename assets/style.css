@@ -470,3 +470,8 @@ footer .links a { display: inline-block; padding: 12px 0; }
   .exposure .phones > * { width: 56px; height: auto; border-width: 2px; border-radius: 7px; }
   .exposure .ph { font-size: 7px; }
 }
+/* CJK headlines have no spaces to wrap at: keep the authored line break and size each line to fit a phone. */
+@media (max-width: 520px) {
+  :lang(ja) .home-hero h1 br, :lang(zh-TW) .home-hero h1 br { display: inline; }
+  :lang(ja) .home-hero h1, :lang(zh-TW) .home-hero h1 { font-size: clamp(22px, 7.4vw, 30px); }
+}

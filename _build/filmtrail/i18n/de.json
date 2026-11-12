@@ -1,0 +1,106 @@
+{
+  "tagline": "Belichtungsmesser und Bild-Log für Filmfotografen",
+  "meta_description": "FilmTrail ist eine kostenlose Android-App für Filmfotografen: Licht messen, festhalten, wo jedes Bild entstand, und den Ort in deine Scans schreiben. Alles bleibt auf deinem Handy.",
+  "skip": "Zu den Funktionen",
+  "nav_label": "Abschnitte",
+  "nav_features": "Funktionen",
+  "nav_privacy": "Datenschutz",
+  "nav_faq": "FAQ",
+  "lang_label": "Sprache",
+  "hero_tag": "Android · Kostenlos · Ohne Konto",
+  "h1_a": "Deine Filmkamera",
+  "h1_b": "weiß nicht, wo.",
+  "lead": "FilmTrail misst das Licht und hält mit einem Tipp nach dem Auslösen fest, wo jedes Bild entstand. Wenn die Scans zurück sind, schreibt die App diesen Ort in die Dateien.",
+  "notify_small": "SAG MIR BESCHEID",
+  "notify": "Wenn es bei Google Play ist",
+  "mail_subject": "FilmTrail: Bescheid geben, wenn es da ist",
+  "mail_body": "Hallo Film Wanderer, bitte schreibt mir, wenn FilmTrail bei Google Play ist.",
+  "soon": "Bald verfügbar",
+  "notify_note": "Oder schreib uns jederzeit:",
+  "mascot_alt": "Die FilmTrail-Wachtel, eine Wanderin mit grünem Fernglas und Kompass in der Hand",
+  "features_h": "Ein Film, vier Schritte",
+  "features_count": "04 Bilder",
+  "frames": [
+    {
+      "t": "Licht messen",
+      "p": "Nutzt den Lichtsensor des Handys, so wie ein Handbelichtungsmesser das Licht misst, das auf dein Motiv fällt.",
+      "l": [
+        "Zeit- oder Blendenautomatik, Belichtungskorrektur",
+        "ISO aus deinem Film übernehmen",
+        "Kalibrierung pro Handy an einem Messer deines Vertrauens"
+      ]
+    },
+    {
+      "t": "Jedes Bild loggen",
+      "p": "Tippe direkt nach dem Auslösen einmal. FilmTrail speichert Zeit, GPS-Position und die verwendete Belichtung.",
+      "l": [
+        "Gedrückt halten für eine Sprachnotiz",
+        "Optional ein kleines Referenzbild der Szene",
+        "Schnelleinstellungs-Kachel und Widget"
+      ]
+    },
+    {
+      "t": "Scans zuordnen",
+      "p": "Wähle die gescannten Dateien Bild für Bild aus, mit Sprachnotiz und Referenzbild als Erinnerung.",
+      "l": [
+        "Schreibt GPS in die EXIF-Daten einer Kopie",
+        "Pixel werden nie neu kodiert",
+        "JPEG und PNG"
+      ]
+    },
+    {
+      "t": "Die Spur sehen",
+      "p": "Jedes Bild auf einer Karte mit Vorschau, und dein Log in Formaten, die andere Apps lesen.",
+      "l": [
+        "Kartenpins mit Vorschaubildern",
+        "CSV, GPX (Organic Maps, OsmAnd) und KML (Google Earth)",
+        "Backup-Datei für ein neues Handy"
+      ]
+    }
+  ],
+  "v_tag": "Datenschutz",
+  "v_h": "Deine Spur bleibt bei dir.",
+  "v_p": "Kein Konto, keine Werbung, keine Analyse. Filme, Bilder, Orte und Sprachnotizen werden nur auf deinem Handy gespeichert.",
+  "v_link": "Datenschutzerklärung lesen",
+  "points": [
+    [
+      "Auf deinem Handy",
+      "Nichts wird auf einen Server von uns geladen. Es gibt keinen."
+    ],
+    [
+      "Du entscheidest, was du teilst",
+      "Exporte und Backups gehen nur dorthin, wohin du sie schickst."
+    ],
+    [
+      "Karte ist optional",
+      "Der Kartenhintergrund lädt erst von OpenFreeMap, wenn du zustimmst."
+    ],
+    [
+      "Jederzeit löschen",
+      "Entferne ein Bild, einen Film oder alles in den Einstellungen."
+    ]
+  ],
+  "faq_h": "Fragen",
+  "faqs": [
+    [
+      "Ist es kostenlos?",
+      "Ja. FilmTrail ist kostenlos, ohne Werbung und ohne In-App-Käufe."
+    ],
+    [
+      "Funktioniert es offline?",
+      "Ja. Messen, Loggen und Zuordnen funktionieren ohne Verbindung. Nur der Kartenhintergrund braucht Internet, und du kannst ihn ausgeschaltet lassen."
+    ],
+    [
+      "Welche Kameras?",
+      "Jede Filmkamera, Kleinbild oder Mittelformat. FilmTrail spricht nicht mit der Kamera; du tippst nach jedem Bild aufs Handy."
+    ],
+    [
+      "iPhone?",
+      "Vorerst nicht. FilmTrail gibt es nur für Android (ab Android 8.0). Die App selbst ist auf Englisch und Vietnamesisch."
+    ]
+  ],
+  "closing_h": "Leg den nächsten Film ein.",
+  "closing_p": "FilmTrail ist im Test. Hinterlass deine E-Mail und wir sagen dir Bescheid, wenn es bei Google Play ist.",
+  "footer_stamp": "FÜR FILM GEMACHT",
+  "footer_privacy": "Datenschutzerklärung"
+}
