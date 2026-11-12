@@ -47,25 +47,37 @@
         <h2 class="head">{{apps_h}}</h2>
         <span class="count">//&nbsp;{{apps_count}}&nbsp;//</span>
       </div>
-      <div class="products">
-        <article class="card product fd">
-          <div class="brand"><img class="brand-logo" src="{{root}}filmdesk/assets/brand/filmdesk-logo.webp" width="220" height="84" alt="FilmDesk"></div>
-          <span class="status">{{fd_status}}</span>
-          <p class="tagline">{{fd_tagline}}</p>
-          <p class="desc">{{fd_desc}}</p>
-          <div class="links">
-            <a class="primary" href="{{root}}filmdesk/{{folder}}">{{more}} →</a>
-            <a href="{{root}}filmdesk/{{folder}}privacy/">{{privacy}}</a>
+      <div class="reel">
+        <article class="frame-card fd">
+          <span class="edge" aria-hidden="true">FILM WANDERER 400 ▸ 01</span>
+          <div class="exposure">
+            <img class="brand-logo" src="{{root}}filmdesk/assets/brand/filmdesk-logo.webp" width="220" height="84" alt="FilmDesk">
+            <div class="pic phone-pic"><img src="{{root}}filmdesk/assets/shots/shot-02.webp" width="540" height="1226" alt="" loading="lazy" decoding="async"></div>
+          </div>
+          <div class="caption">
+            <span class="stamp-status">{{fd_status}}</span>
+            <h3 class="tagline">{{fd_tagline}}</h3>
+            <p class="desc">{{fd_desc}}</p>
+            <div class="links">
+              <a class="primary" href="{{root}}filmdesk/{{folder}}">{{more}} →</a>
+              <a href="{{root}}filmdesk/{{folder}}privacy/">{{privacy}}</a>
+            </div>
           </div>
         </article>
-        <article class="card product ft">
-          <div class="brand"><img class="brand-logo" src="{{root}}filmtrail/assets/brand/filmtrail-logo.webp" width="237" height="84" alt="FilmTrail"></div>
-          <span class="status">{{ft_status}}</span>
-          <p class="tagline">{{ft_tagline}}</p>
-          <p class="desc">{{ft_desc}}</p>
-          <div class="links">
-            <a class="primary" href="{{root}}filmtrail/{{ft_folder}}">{{more}} →</a>
-            <a href="{{root}}filmtrail/{{ft_folder}}privacy/">{{privacy}}</a>
+        <article class="frame-card ft">
+          <span class="edge" aria-hidden="true">FILM WANDERER 400 ▸ 02</span>
+          <div class="exposure">
+            <img class="brand-logo" src="{{root}}filmtrail/assets/brand/filmtrail-logo.webp" width="237" height="84" alt="FilmTrail">
+            <div class="pic"><img src="{{root}}filmtrail/assets/mascot.webp" width="640" height="559" alt="" loading="lazy" decoding="async"></div>
+          </div>
+          <div class="caption">
+            <span class="stamp-status">{{ft_status}}</span>
+            <h3 class="tagline">{{ft_tagline}}</h3>
+            <p class="desc">{{ft_desc}}</p>
+            <div class="links">
+              <a class="primary" href="{{root}}filmtrail/{{ft_folder}}">{{more}} →</a>
+              <a href="{{root}}filmtrail/{{ft_folder}}privacy/">{{privacy}}</a>
+            </div>
           </div>
         </article>
       </div>
