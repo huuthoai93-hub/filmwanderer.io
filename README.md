@@ -1,6 +1,6 @@
 # Film Wanderer
 
-Website của Film Wanderer, phục vụ bằng GitHub Pages tại https://huuthoai93-hub.github.io/
+Website của Film Wanderer, phục vụ bằng GitHub Pages tại https://film-wanderer.io.vn/ (domain riêng qua `CNAME`; địa chỉ cũ https://huuthoai93-hub.github.io/ tự chuyển hướng về đây)
 
 | Đường dẫn | Nội dung |
 |---|---|

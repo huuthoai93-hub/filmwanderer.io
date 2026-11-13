@@ -2,7 +2,7 @@
 
 <!-- impeccable:product-schema 1 -->
 
-Hồ sơ sản phẩm cho website Film Wanderer (https://huuthoai93-hub.github.io/). Viết theo quy trình `impeccable init`, nội dung do Thoai xác nhận ngày 2026-11-12.
+Hồ sơ sản phẩm cho website Film Wanderer (https://film-wanderer.io.vn/). Viết theo quy trình `impeccable init`, nội dung do Thoai xác nhận ngày 2026-11-12.
 
 ## Platform
 
